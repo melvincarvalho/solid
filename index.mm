@@ -75,6 +75,7 @@
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
 <node TEXT="Data Kitchen" ID="ID_464490085" CREATED="1573024190055" MODIFIED="1573024327376" LINK="https://github.com/solid/data-kitchen"/>
+<node TEXT="BrowserFS" ID="ID_254470917" CREATED="1573155072181" MODIFIED="1573155078101" LINK="https://github.com/jvilk/BrowserFS"/>
 </node>
 <node TEXT="Links" POSITION="left" ID="ID_777477932" CREATED="1572063875737" MODIFIED="1572064427848" COLOR="#660000">
 <icon BUILTIN="attach"/>

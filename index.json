@@ -236,13 +236,22 @@
                     "edge": {
                         "@_COLOR": "#ff00ff"
                     },
-                    "node": {
-                        "@_TEXT": "Data Kitchen",
-                        "@_ID": "ID_464490085",
-                        "@_CREATED": 1573024190055,
-                        "@_MODIFIED": 1573024327376,
-                        "@_LINK": "https://github.com/solid/data-kitchen"
-                    }
+                    "node": [
+                        {
+                            "@_TEXT": "Data Kitchen",
+                            "@_ID": "ID_464490085",
+                            "@_CREATED": 1573024190055,
+                            "@_MODIFIED": 1573024327376,
+                            "@_LINK": "https://github.com/solid/data-kitchen"
+                        },
+                        {
+                            "@_TEXT": "BrowserFS",
+                            "@_ID": "ID_254470917",
+                            "@_CREATED": 1573155072181,
+                            "@_MODIFIED": 1573155078101,
+                            "@_LINK": "https://github.com/jvilk/BrowserFS"
+                        }
+                    ]
                 },
                 {
                     "@_TEXT": "Links",
