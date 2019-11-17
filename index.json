@@ -270,13 +270,28 @@
                     "edge": {
                         "@_COLOR": "#00ffff"
                     },
-                    "node": {
-                        "@_TEXT": "MIT",
-                        "@_ID": "ID_671925292",
-                        "@_CREATED": 1573024179269,
-                        "@_MODIFIED": 1573024358704,
-                        "@_LINK": "https://solid.mit.edu"
-                    }
+                    "node": [
+                        {
+                            "@_TEXT": "MIT",
+                            "@_ID": "ID_671925292",
+                            "@_CREATED": 1573024179269,
+                            "@_MODIFIED": 1573024358704,
+                            "@_LINK": "https://solid.mit.edu"
+                        },
+                        {
+                            "@_TEXT": "Specs",
+                            "@_ID": "ID_1604622862",
+                            "@_CREATED": 1574031057044,
+                            "@_MODIFIED": 1574031060459,
+                            "node": {
+                                "@_TEXT": "Linked Data Notifications",
+                                "@_ID": "ID_1990139043",
+                                "@_CREATED": 1574031062993,
+                                "@_MODIFIED": 1574031073388,
+                                "@_LINK": "https://www.w3.org/TR/ldn/"
+                            }
+                        }
+                    ]
                 }
             ]
         }

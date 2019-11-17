@@ -82,6 +82,9 @@
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#00ffff"/>
 <node TEXT="MIT" ID="ID_671925292" CREATED="1573024179269" MODIFIED="1573024358704" LINK="https://solid.mit.edu"/>
+<node TEXT="Specs" ID="ID_1604622862" CREATED="1574031057044" MODIFIED="1574031060459">
+<node TEXT="Linked Data Notifications" ID="ID_1990139043" CREATED="1574031062993" MODIFIED="1574031073388" LINK="https://www.w3.org/TR/ldn/"/>
+</node>
 </node>
 </node>
 </map>
