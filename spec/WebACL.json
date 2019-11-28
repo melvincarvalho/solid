@@ -239,24 +239,38 @@
                             "@_TEXT": "public access",
                             "@_ID": "ID_1062275774",
                             "@_CREATED": 1574934624892,
-                            "@_MODIFIED": 1574934627920,
+                            "@_MODIFIED": 1574936374179,
+                            "icon": {
+                                "@_BUILTIN": "family"
+                            },
                             "node": {
                                 "@_TEXT": "@prefix   acl:  &lt;http://www.w3.org/ns/auth/acl#&gt;.&#xa;@prefix  foaf:  &lt;http://xmlns.com/foaf/0.1/&gt;.&#xa;&#xa;&lt;#authorization2&gt;&#xa;    a               acl:Authorization;&#xa;    acl:agentClass  foaf:Agent;                               # everyone&#xa;    acl:mode        acl:Read;                                 # has Read-only access&#xa;    acl:accessTo    &lt;https://alice.databox.me/profile/card&gt;.  # to the public profile",
                                 "@_ID": "ID_530531906",
                                 "@_CREATED": 1574934629624,
-                                "@_MODIFIED": 1574934631691
+                                "@_MODIFIED": 1574936352076,
+                                "cloud": {
+                                    "@_COLOR": "#ccffcc",
+                                    "@_SHAPE": "ROUND_RECT"
+                                }
                             }
                         },
                         {
                             "@_TEXT": "private access",
                             "@_ID": "ID_1422483396",
                             "@_CREATED": 1574934637285,
-                            "@_MODIFIED": 1574934640340,
+                            "@_MODIFIED": 1574936364106,
+                            "icon": {
+                                "@_BUILTIN": "password"
+                            },
                             "node": {
                                 "@_TEXT": "# Contents of https://alice.databox.me/docs/file1.acl&#xa;@prefix  acl:  &lt;http://www.w3.org/ns/auth/acl#&gt;  .&#xa;&#xa;&lt;#authorization1&gt;&#xa;    a             acl:Authorization;&#xa;    acl:agent     &lt;https://alice.databox.me/profile/card#me&gt;;  # Alice&apos;s WebID&#xa;    acl:accessTo  &lt;https://alice.databox.me/docs/file1&gt;;&#xa;    acl:mode      acl:Read,&#xa;                  acl:Write,&#xa;                  acl:Control.",
                                 "@_ID": "ID_1470527495",
                                 "@_CREATED": 1574934589264,
-                                "@_MODIFIED": 1574934591465
+                                "@_MODIFIED": 1574936334856,
+                                "cloud": {
+                                    "@_COLOR": "#ffffcc",
+                                    "@_SHAPE": "ROUND_RECT"
+                                }
                             }
                         }
                     ]

@@ -74,11 +74,17 @@
 </node>
 <node TEXT="example" POSITION="right" ID="ID_297918706" CREATED="1574934586165" MODIFIED="1574934587935">
 <edge COLOR="#ff00ff"/>
-<node TEXT="public access" ID="ID_1062275774" CREATED="1574934624892" MODIFIED="1574934627920">
-<node TEXT="@prefix   acl:  &lt;http://www.w3.org/ns/auth/acl#&gt;.&#xa;@prefix  foaf:  &lt;http://xmlns.com/foaf/0.1/&gt;.&#xa;&#xa;&lt;#authorization2&gt;&#xa;    a               acl:Authorization;&#xa;    acl:agentClass  foaf:Agent;                               # everyone&#xa;    acl:mode        acl:Read;                                 # has Read-only access&#xa;    acl:accessTo    &lt;https://alice.databox.me/profile/card&gt;.  # to the public profile" ID="ID_530531906" CREATED="1574934629624" MODIFIED="1574934631691"/>
+<node TEXT="public access" ID="ID_1062275774" CREATED="1574934624892" MODIFIED="1574936374179">
+<icon BUILTIN="family"/>
+<node TEXT="@prefix   acl:  &lt;http://www.w3.org/ns/auth/acl#&gt;.&#xa;@prefix  foaf:  &lt;http://xmlns.com/foaf/0.1/&gt;.&#xa;&#xa;&lt;#authorization2&gt;&#xa;    a               acl:Authorization;&#xa;    acl:agentClass  foaf:Agent;                               # everyone&#xa;    acl:mode        acl:Read;                                 # has Read-only access&#xa;    acl:accessTo    &lt;https://alice.databox.me/profile/card&gt;.  # to the public profile" ID="ID_530531906" CREATED="1574934629624" MODIFIED="1574936352076">
+<cloud COLOR="#ccffcc" SHAPE="ROUND_RECT"/>
 </node>
-<node TEXT="private access" ID="ID_1422483396" CREATED="1574934637285" MODIFIED="1574934640340">
-<node TEXT="# Contents of https://alice.databox.me/docs/file1.acl&#xa;@prefix  acl:  &lt;http://www.w3.org/ns/auth/acl#&gt;  .&#xa;&#xa;&lt;#authorization1&gt;&#xa;    a             acl:Authorization;&#xa;    acl:agent     &lt;https://alice.databox.me/profile/card#me&gt;;  # Alice&apos;s WebID&#xa;    acl:accessTo  &lt;https://alice.databox.me/docs/file1&gt;;&#xa;    acl:mode      acl:Read,&#xa;                  acl:Write,&#xa;                  acl:Control." ID="ID_1470527495" CREATED="1574934589264" MODIFIED="1574934591465"/>
+</node>
+<node TEXT="private access" ID="ID_1422483396" CREATED="1574934637285" MODIFIED="1574936364106">
+<icon BUILTIN="password"/>
+<node TEXT="# Contents of https://alice.databox.me/docs/file1.acl&#xa;@prefix  acl:  &lt;http://www.w3.org/ns/auth/acl#&gt;  .&#xa;&#xa;&lt;#authorization1&gt;&#xa;    a             acl:Authorization;&#xa;    acl:agent     &lt;https://alice.databox.me/profile/card#me&gt;;  # Alice&apos;s WebID&#xa;    acl:accessTo  &lt;https://alice.databox.me/docs/file1&gt;;&#xa;    acl:mode      acl:Read,&#xa;                  acl:Write,&#xa;                  acl:Control." ID="ID_1470527495" CREATED="1574934589264" MODIFIED="1574936334856">
+<cloud COLOR="#ffffcc" SHAPE="ROUND_RECT"/>
+</node>
 </node>
 </node>
 </node>
