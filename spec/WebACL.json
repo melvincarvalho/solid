@@ -2,19 +2,17 @@
     "map": {
         "@_version": "freeplane 1.7.0",
         "node": {
-            "@_TEXT": "solid",
+            "@_TEXT": "WebACL",
             "@_FOLDED": false,
-            "@_ID": "ID_237352286",
-            "@_CREATED": 1570576809840,
-            "@_MODIFIED": 1574934322662,
-            "@_ICON_SIZE": "16.0 pt",
-            "@_LINK": "../tech/index.mm",
-            "@_STYLE": "oval",
-            "icon": {
-                "@_BUILTIN": "wizard"
-            },
-            "font": {
-                "@_SIZE": 18
+            "@_ID": "ID_555367320",
+            "@_CREATED": 1574934389442,
+            "@_MODIFIED": 1574934478233,
+            "@_LINK": "index.mm",
+            "edge": {
+                "@_STYLE": "bezier",
+                "@_COLOR": "#007c7c",
+                "@_WIDTH": "thin",
+                "@_DASH": "SOLID"
             },
             "hook": [
                 {
@@ -191,121 +189,74 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 19,
+                    "@_COUNTER": 26,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
+            "font": {
+                "@_SIZE": 13
+            },
             "node": [
                 {
-                    "@_TEXT": "Apps",
+                    "@_TEXT": "github spec",
                     "@_POSITION": "right",
-                    "@_ID": "ID_527312312",
-                    "@_CREATED": 1572063758657,
-                    "@_MODIFIED": 1574934299237,
-                    "@_LINK": "https://solidapps.org/",
-                    "@_HGAP_QUANTITY": "-80.49999718368062 pt",
-                    "@_VSHIFT_QUANTITY": "-98.24999707192191 pt",
-                    "@_COLOR": "#000099",
-                    "icon": {
-                        "@_BUILTIN": "launch"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
-                    },
+                    "@_ID": "ID_1474243793",
+                    "@_CREATED": 1574934514434,
+                    "@_MODIFIED": 1574934519462,
+                    "@_LINK": "https://github.com/solid/web-access-control-spec#web-access-control-wac",
+                    "edge": {
+                        "@_COLOR": "#0000ff"
+                    }
+                },
+                {
+                    "@_TEXT": "ontology",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_205273098",
+                    "@_CREATED": 1574934542362,
+                    "@_MODIFIED": 1574934576201,
                     "edge": {
                         "@_COLOR": "#00ff00"
+                    },
+                    "node": {
+                        "@_TEXT": "auth/acl",
+                        "@_ID": "ID_714613231",
+                        "@_CREATED": 1574934542362,
+                        "@_MODIFIED": 1574934571272,
+                        "@_LINK": "http://www.w3.org/ns/auth/acl"
                     }
                 },
                 {
-                    "@_TEXT": "spec",
+                    "@_TEXT": "example",
                     "@_POSITION": "right",
-                    "@_ID": "ID_45632273",
-                    "@_CREATED": 1574934349622,
-                    "@_MODIFIED": 1574934358562,
-                    "@_LINK": "spec/index.mm",
-                    "edge": {
-                        "@_STYLE": "bezier",
-                        "@_COLOR": "#00007c",
-                        "@_WIDTH": "thin"
-                    },
-                    "font": {
-                        "@_SIZE": 11,
-                        "@_BOLD": true
-                    }
-                },
-                {
-                    "@_TEXT": "Tools",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1810859973",
-                    "@_CREATED": 1572063767900,
-                    "@_MODIFIED": 1574934302574,
-                    "@_HGAP_QUANTITY": "-72.24999742954977 pt",
-                    "@_VSHIFT_QUANTITY": "68.24999796599155 pt",
-                    "@_COLOR": "#666600",
-                    "icon": {
-                        "@_BUILTIN": "executable"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
-                    },
+                    "@_ID": "ID_297918706",
+                    "@_CREATED": 1574934586165,
+                    "@_MODIFIED": 1574934587935,
                     "edge": {
                         "@_COLOR": "#ff00ff"
                     },
                     "node": [
                         {
-                            "@_TEXT": "Data Kitchen",
-                            "@_ID": "ID_464490085",
-                            "@_CREATED": 1573024190055,
-                            "@_MODIFIED": 1573024327376,
-                            "@_LINK": "https://github.com/solid/data-kitchen"
-                        },
-                        {
-                            "@_TEXT": "BrowserFS",
-                            "@_ID": "ID_254470917",
-                            "@_CREATED": 1573155072181,
-                            "@_MODIFIED": 1573155078101,
-                            "@_LINK": "https://github.com/jvilk/BrowserFS"
-                        }
-                    ]
-                },
-                {
-                    "@_TEXT": "Links",
-                    "@_POSITION": "left",
-                    "@_ID": "ID_777477932",
-                    "@_CREATED": 1572063875737,
-                    "@_MODIFIED": 1572064427848,
-                    "@_COLOR": "#660000",
-                    "icon": {
-                        "@_BUILTIN": "attach"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
-                    },
-                    "edge": {
-                        "@_COLOR": "#00ffff"
-                    },
-                    "node": [
-                        {
-                            "@_TEXT": "MIT",
-                            "@_ID": "ID_671925292",
-                            "@_CREATED": 1573024179269,
-                            "@_MODIFIED": 1573024358704,
-                            "@_LINK": "https://solid.mit.edu"
-                        },
-                        {
-                            "@_TEXT": "Specs",
-                            "@_ID": "ID_1604622862",
-                            "@_CREATED": 1574031057044,
-                            "@_MODIFIED": 1574031060459,
+                            "@_TEXT": "public access",
+                            "@_ID": "ID_1062275774",
+                            "@_CREATED": 1574934624892,
+                            "@_MODIFIED": 1574934627920,
                             "node": {
-                                "@_TEXT": "Linked Data Notifications",
-                                "@_ID": "ID_1990139043",
-                                "@_CREATED": 1574031062993,
-                                "@_MODIFIED": 1574031073388,
-                                "@_LINK": "https://www.w3.org/TR/ldn/"
+                                "@_TEXT": "@prefix   acl:  &lt;http://www.w3.org/ns/auth/acl#&gt;.&#xa;@prefix  foaf:  &lt;http://xmlns.com/foaf/0.1/&gt;.&#xa;&#xa;&lt;#authorization2&gt;&#xa;    a               acl:Authorization;&#xa;    acl:agentClass  foaf:Agent;                               # everyone&#xa;    acl:mode        acl:Read;                                 # has Read-only access&#xa;    acl:accessTo    &lt;https://alice.databox.me/profile/card&gt;.  # to the public profile",
+                                "@_ID": "ID_530531906",
+                                "@_CREATED": 1574934629624,
+                                "@_MODIFIED": 1574934631691
+                            }
+                        },
+                        {
+                            "@_TEXT": "private access",
+                            "@_ID": "ID_1422483396",
+                            "@_CREATED": 1574934637285,
+                            "@_MODIFIED": 1574934640340,
+                            "node": {
+                                "@_TEXT": "# Contents of https://alice.databox.me/docs/file1.acl&#xa;@prefix  acl:  &lt;http://www.w3.org/ns/auth/acl#&gt;  .&#xa;&#xa;&lt;#authorization1&gt;&#xa;    a             acl:Authorization;&#xa;    acl:agent     &lt;https://alice.databox.me/profile/card#me&gt;;  # Alice&apos;s WebID&#xa;    acl:accessTo  &lt;https://alice.databox.me/docs/file1&gt;;&#xa;    acl:mode      acl:Read,&#xa;                  acl:Write,&#xa;                  acl:Control.",
+                                "@_ID": "ID_1470527495",
+                                "@_CREATED": 1574934589264,
+                                "@_MODIFIED": 1574934591465
                             }
                         }
                     ]

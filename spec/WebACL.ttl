@@ -1,0 +1,7 @@
+<#ID_1474243793> <urn:string:@_TEXT> """github spec""" .
+<#ID_205273098> <urn:string:@_TEXT> """ontology""" .
+<#ID_297918706> <urn:string:@_TEXT> """example""" .
+<#ID_1062275774> <urn:string:@_TEXT> """public access""" .
+<#ID_1062275774> <urn:string:child> <ID_1062275774> .
+<#ID_1422483396> <urn:string:@_TEXT> """private access""" .
+<#ID_1422483396> <urn:string:child> <ID_1422483396> .

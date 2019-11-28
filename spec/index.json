@@ -2,19 +2,19 @@
     "map": {
         "@_version": "freeplane 1.7.0",
         "node": {
-            "@_TEXT": "solid",
+            "@_TEXT": "spec",
             "@_FOLDED": false,
-            "@_ID": "ID_237352286",
-            "@_CREATED": 1570576809840,
-            "@_MODIFIED": 1574934322662,
-            "@_ICON_SIZE": "16.0 pt",
-            "@_LINK": "../tech/index.mm",
-            "@_STYLE": "oval",
-            "icon": {
-                "@_BUILTIN": "wizard"
-            },
-            "font": {
-                "@_SIZE": 18
+            "@_ID": "ID_287089019",
+            "@_CREATED": 1574934309018,
+            "@_MODIFIED": 1574934380992,
+            "@_LINK": "../index.mm",
+            "@_HGAP_QUANTITY": "18.499999865889553 pt",
+            "@_VSHIFT_QUANTITY": "-2.9999999105930355 pt",
+            "edge": {
+                "@_STYLE": "bezier",
+                "@_COLOR": "#00007c",
+                "@_WIDTH": "thin",
+                "@_DASH": "SOLID"
             },
             "hook": [
                 {
@@ -191,122 +191,81 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 19,
+                    "@_COUNTER": 22,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
+            "font": {
+                "@_SIZE": 14,
+                "@_BOLD": false
+            },
             "node": [
                 {
-                    "@_TEXT": "Apps",
+                    "@_TEXT": "components",
                     "@_POSITION": "right",
-                    "@_ID": "ID_527312312",
-                    "@_CREATED": 1572063758657,
-                    "@_MODIFIED": 1574934299237,
-                    "@_LINK": "https://solidapps.org/",
-                    "@_HGAP_QUANTITY": "-80.49999718368062 pt",
-                    "@_VSHIFT_QUANTITY": "-98.24999707192191 pt",
-                    "@_COLOR": "#000099",
-                    "icon": {
-                        "@_BUILTIN": "launch"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
-                    },
+                    "@_ID": "ID_1400406879",
+                    "@_CREATED": 1574934400059,
+                    "@_MODIFIED": 1574934404387,
                     "edge": {
-                        "@_COLOR": "#00ff00"
-                    }
-                },
-                {
-                    "@_TEXT": "spec",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_45632273",
-                    "@_CREATED": 1574934349622,
-                    "@_MODIFIED": 1574934358562,
-                    "@_LINK": "spec/index.mm",
-                    "edge": {
-                        "@_STYLE": "bezier",
-                        "@_COLOR": "#00007c",
-                        "@_WIDTH": "thin"
-                    },
-                    "font": {
-                        "@_SIZE": 11,
-                        "@_BOLD": true
-                    }
-                },
-                {
-                    "@_TEXT": "Tools",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1810859973",
-                    "@_CREATED": 1572063767900,
-                    "@_MODIFIED": 1574934302574,
-                    "@_HGAP_QUANTITY": "-72.24999742954977 pt",
-                    "@_VSHIFT_QUANTITY": "68.24999796599155 pt",
-                    "@_COLOR": "#666600",
-                    "icon": {
-                        "@_BUILTIN": "executable"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
-                    },
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
+                        "@_COLOR": "#007c7c"
                     },
                     "node": [
                         {
-                            "@_TEXT": "Data Kitchen",
-                            "@_ID": "ID_464490085",
-                            "@_CREATED": 1573024190055,
-                            "@_MODIFIED": 1573024327376,
-                            "@_LINK": "https://github.com/solid/data-kitchen"
+                            "@_TEXT": "WebACL",
+                            "@_ID": "ID_770938237",
+                            "@_CREATED": 1574934472236,
+                            "@_MODIFIED": 1574934472237,
+                            "@_LINK": "WebACL.mm",
+                            "edge": {
+                                "@_STYLE": "bezier",
+                                "@_COLOR": "#007c7c",
+                                "@_WIDTH": "thin"
+                            }
                         },
                         {
-                            "@_TEXT": "BrowserFS",
-                            "@_ID": "ID_254470917",
-                            "@_CREATED": 1573155072181,
-                            "@_MODIFIED": 1573155078101,
-                            "@_LINK": "https://github.com/jvilk/BrowserFS"
+                            "@_TEXT": "WebID",
+                            "@_ID": "ID_579982698",
+                            "@_CREATED": 1574934397266,
+                            "@_MODIFIED": 1574934408854
+                        },
+                        {
+                            "@_TEXT": "LDN",
+                            "@_ID": "ID_1526341583",
+                            "@_CREATED": 1574934411282,
+                            "@_MODIFIED": 1574934418594
                         }
                     ]
                 },
                 {
-                    "@_TEXT": "Links",
-                    "@_POSITION": "left",
-                    "@_ID": "ID_777477932",
-                    "@_CREATED": 1572063875737,
-                    "@_MODIFIED": 1572064427848,
-                    "@_COLOR": "#660000",
-                    "icon": {
-                        "@_BUILTIN": "attach"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
-                    },
+                    "@_TEXT": "versions",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1179681139",
+                    "@_CREATED": 1574934423523,
+                    "@_MODIFIED": 1574934428459,
                     "edge": {
-                        "@_COLOR": "#00ffff"
+                        "@_COLOR": "#7c7c00"
                     },
                     "node": [
                         {
-                            "@_TEXT": "MIT",
-                            "@_ID": "ID_671925292",
-                            "@_CREATED": 1573024179269,
-                            "@_MODIFIED": 1573024358704,
-                            "@_LINK": "https://solid.mit.edu"
+                            "@_TEXT": 0.7,
+                            "@_OBJECT": "java.lang.Double|0.7",
+                            "@_ID": "ID_1966112557",
+                            "@_CREATED": 1574934429594,
+                            "@_MODIFIED": 1574934431992
                         },
                         {
-                            "@_TEXT": "Specs",
-                            "@_ID": "ID_1604622862",
-                            "@_CREATED": 1574031057044,
-                            "@_MODIFIED": 1574031060459,
-                            "node": {
-                                "@_TEXT": "Linked Data Notifications",
-                                "@_ID": "ID_1990139043",
-                                "@_CREATED": 1574031062993,
-                                "@_MODIFIED": 1574031073388,
-                                "@_LINK": "https://www.w3.org/TR/ldn/"
-                            }
+                            "@_TEXT": 0.8,
+                            "@_OBJECT": "java.lang.Double|0.8",
+                            "@_ID": "ID_1383651068",
+                            "@_CREATED": 1574934432772,
+                            "@_MODIFIED": 1574934434569
+                        },
+                        {
+                            "@_TEXT": 1,
+                            "@_OBJECT": "java.lang.Long|1",
+                            "@_ID": "ID_1681746134",
+                            "@_CREATED": 1574934435716,
+                            "@_MODIFIED": 1574934437969
                         }
                     ]
                 }

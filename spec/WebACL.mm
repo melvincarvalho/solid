@@ -1,8 +1,7 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="solid" FOLDED="false" ID="ID_237352286" CREATED="1570576809840" MODIFIED="1574934322662" ICON_SIZE="16.0 pt" LINK="../tech/index.mm" STYLE="oval">
-<icon BUILTIN="wizard"/>
-<font SIZE="18"/>
+<node TEXT="WebACL" FOLDED="false" ID="ID_555367320" CREATED="1574934389442" MODIFIED="1574934478233" LINK="index.mm">
+<edge STYLE="bezier" COLOR="#007c7c" WIDTH="thin" DASH="SOLID"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
@@ -64,30 +63,22 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="19" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Apps" POSITION="right" ID="ID_527312312" CREATED="1572063758657" MODIFIED="1574934299237" LINK="https://solidapps.org/" HGAP_QUANTITY="-80.49999718368062 pt" VSHIFT_QUANTITY="-98.24999707192191 pt" COLOR="#000099">
-<icon BUILTIN="launch"/>
-<font SIZE="12" BOLD="true"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="26" RULE="ON_BRANCH_CREATION"/>
+<font SIZE="13"/>
+<node TEXT="github spec" POSITION="right" ID="ID_1474243793" CREATED="1574934514434" MODIFIED="1574934519462" LINK="https://github.com/solid/web-access-control-spec#web-access-control-wac">
+<edge COLOR="#0000ff"/>
+</node>
+<node TEXT="ontology" POSITION="right" ID="ID_205273098" CREATED="1574934542362" MODIFIED="1574934576201">
 <edge COLOR="#00ff00"/>
+<node TEXT="auth/acl" ID="ID_714613231" CREATED="1574934542362" MODIFIED="1574934571272" LINK="http://www.w3.org/ns/auth/acl"/>
 </node>
-<node TEXT="spec" POSITION="right" ID="ID_45632273" CREATED="1574934349622" MODIFIED="1574934358562" LINK="spec/index.mm">
-<edge STYLE="bezier" COLOR="#00007c" WIDTH="thin"/>
-<font SIZE="11" BOLD="true"/>
-</node>
-<node TEXT="Tools" POSITION="right" ID="ID_1810859973" CREATED="1572063767900" MODIFIED="1574934302574" HGAP_QUANTITY="-72.24999742954977 pt" VSHIFT_QUANTITY="68.24999796599155 pt" COLOR="#666600">
-<icon BUILTIN="executable"/>
-<font SIZE="12" BOLD="true"/>
+<node TEXT="example" POSITION="right" ID="ID_297918706" CREATED="1574934586165" MODIFIED="1574934587935">
 <edge COLOR="#ff00ff"/>
-<node TEXT="Data Kitchen" ID="ID_464490085" CREATED="1573024190055" MODIFIED="1573024327376" LINK="https://github.com/solid/data-kitchen"/>
-<node TEXT="BrowserFS" ID="ID_254470917" CREATED="1573155072181" MODIFIED="1573155078101" LINK="https://github.com/jvilk/BrowserFS"/>
+<node TEXT="public access" ID="ID_1062275774" CREATED="1574934624892" MODIFIED="1574934627920">
+<node TEXT="@prefix   acl:  &lt;http://www.w3.org/ns/auth/acl#&gt;.&#xa;@prefix  foaf:  &lt;http://xmlns.com/foaf/0.1/&gt;.&#xa;&#xa;&lt;#authorization2&gt;&#xa;    a               acl:Authorization;&#xa;    acl:agentClass  foaf:Agent;                               # everyone&#xa;    acl:mode        acl:Read;                                 # has Read-only access&#xa;    acl:accessTo    &lt;https://alice.databox.me/profile/card&gt;.  # to the public profile" ID="ID_530531906" CREATED="1574934629624" MODIFIED="1574934631691"/>
 </node>
-<node TEXT="Links" POSITION="left" ID="ID_777477932" CREATED="1572063875737" MODIFIED="1572064427848" COLOR="#660000">
-<icon BUILTIN="attach"/>
-<font SIZE="12" BOLD="true"/>
-<edge COLOR="#00ffff"/>
-<node TEXT="MIT" ID="ID_671925292" CREATED="1573024179269" MODIFIED="1573024358704" LINK="https://solid.mit.edu"/>
-<node TEXT="Specs" ID="ID_1604622862" CREATED="1574031057044" MODIFIED="1574031060459">
-<node TEXT="Linked Data Notifications" ID="ID_1990139043" CREATED="1574031062993" MODIFIED="1574031073388" LINK="https://www.w3.org/TR/ldn/"/>
+<node TEXT="private access" ID="ID_1422483396" CREATED="1574934637285" MODIFIED="1574934640340">
+<node TEXT="# Contents of https://alice.databox.me/docs/file1.acl&#xa;@prefix  acl:  &lt;http://www.w3.org/ns/auth/acl#&gt;  .&#xa;&#xa;&lt;#authorization1&gt;&#xa;    a             acl:Authorization;&#xa;    acl:agent     &lt;https://alice.databox.me/profile/card#me&gt;;  # Alice&apos;s WebID&#xa;    acl:accessTo  &lt;https://alice.databox.me/docs/file1&gt;;&#xa;    acl:mode      acl:Read,&#xa;                  acl:Write,&#xa;                  acl:Control." ID="ID_1470527495" CREATED="1574934589264" MODIFIED="1574934591465"/>
 </node>
 </node>
 </node>
