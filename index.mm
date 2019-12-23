@@ -80,6 +80,7 @@
 <edge COLOR="#ff00ff"/>
 <node TEXT="Data Kitchen" ID="ID_464490085" CREATED="1573024190055" MODIFIED="1573024327376" LINK="https://github.com/solid/data-kitchen"/>
 <node TEXT="BrowserFS" ID="ID_254470917" CREATED="1573155072181" MODIFIED="1573155078101" LINK="https://github.com/jvilk/BrowserFS"/>
+<node TEXT="Fuse library" ID="ID_845285837" CREATED="1577063008573" MODIFIED="1577082125436" LINK="https://github.com/fuse-friends/fuse-native"/>
 </node>
 <node TEXT="Links" POSITION="left" ID="ID_777477932" CREATED="1572063875737" MODIFIED="1572064427848" COLOR="#660000">
 <icon BUILTIN="attach"/>

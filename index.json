@@ -267,6 +267,13 @@
                             "@_CREATED": 1573155072181,
                             "@_MODIFIED": 1573155078101,
                             "@_LINK": "https://github.com/jvilk/BrowserFS"
+                        },
+                        {
+                            "@_TEXT": "Fuse library",
+                            "@_ID": "ID_845285837",
+                            "@_CREATED": 1577063008573,
+                            "@_MODIFIED": 1577082125436,
+                            "@_LINK": "https://github.com/fuse-friends/fuse-native"
                         }
                     ]
                 },
