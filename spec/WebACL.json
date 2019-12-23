@@ -6,8 +6,9 @@
             "@_FOLDED": false,
             "@_ID": "ID_555367320",
             "@_CREATED": 1574934389442,
-            "@_MODIFIED": 1574934478233,
+            "@_MODIFIED": 1577081690815,
             "@_LINK": "index.mm",
+            "@_STYLE": "oval",
             "edge": {
                 "@_STYLE": "bezier",
                 "@_COLOR": "#007c7c",
@@ -189,12 +190,12 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 26,
+                    "@_COUNTER": 28,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
             "font": {
-                "@_SIZE": 13
+                "@_SIZE": 15
             },
             "node": [
                 {
@@ -271,6 +272,73 @@
                                     "@_COLOR": "#ffffcc",
                                     "@_SHAPE": "ROUND_RECT"
                                 }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "why acls",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_290069770",
+                    "@_CREATED": 1577079069440,
+                    "@_MODIFIED": 1577081603419,
+                    "edge": {
+                        "@_COLOR": "#7c0000"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "UNIX file permissions have been around a long time",
+                            "@_ID": "ID_1843932484",
+                            "@_CREATED": 1577079078535,
+                            "@_MODIFIED": 1577079078535
+                        },
+                        {
+                            "@_TEXT": "They are to a degree battle tested",
+                            "@_ID": "ID_788023500",
+                            "@_CREATED": 1577079078542,
+                            "@_MODIFIED": 1577079078542
+                        },
+                        {
+                            "@_TEXT": "Most of the team are familiar with UNIX file systems",
+                            "@_ID": "ID_51564427",
+                            "@_CREATED": 1577079078543,
+                            "@_MODIFIED": 1577079078543
+                        },
+                        {
+                            "@_TEXT": "A simple first proof of concept was needed to get the party started ie to allow a permissioned RWW with Web identity",
+                            "@_ID": "ID_807700318",
+                            "@_CREATED": 1577079078543,
+                            "@_MODIFIED": 1577079078543
+                        },
+                        {
+                            "@_TEXT": "Other techniquies are not excluded",
+                            "@_ID": "ID_1644124876",
+                            "@_CREATED": 1577079078543,
+                            "@_MODIFIED": 1577079078543
+                        },
+                        {
+                            "@_TEXT": "Intuitive model to developers",
+                            "@_ID": "ID_1764488130",
+                            "@_CREATED": 1577079078545,
+                            "@_MODIFIED": 1577079078545
+                        },
+                        {
+                            "@_TEXT": "Can reuse decades of file system infrastucture ( e.g. take a look at this excellent FUSE library )",
+                            "@_ID": "ID_1154435863",
+                            "@_CREATED": 1577079078546,
+                            "@_MODIFIED": 1577079078546
+                        },
+                        {
+                            "@_TEXT": "Why NOT ACLs",
+                            "@_ID": "ID_576985031",
+                            "@_CREATED": 1577081618083,
+                            "@_MODIFIED": 1577081624462,
+                            "node": {
+                                "@_TEXT": "Video on macaroons",
+                                "@_ID": "ID_186771292",
+                                "@_CREATED": 1577081659826,
+                                "@_MODIFIED": 1577081668671,
+                                "@_LINK": "https://www.youtube.com/watch?v=QrVVMGpY7s8&amp;feature=youtu.be"
                             }
                         }
                     ]

@@ -5,3 +5,20 @@
 <#ID_1062275774> <urn:string:child> <ID_1062275774> .
 <#ID_1422483396> <urn:string:@_TEXT> """private access""" .
 <#ID_1422483396> <urn:string:child> <ID_1422483396> .
+<#ID_290069770> <urn:string:@_TEXT> """why acls""" .
+<#ID_1843932484> <urn:string:@_TEXT> """UNIX file permissions have been around a long time""" .
+<#ID_1843932484> <urn:string:child> <ID_1843932484> .
+<#ID_788023500> <urn:string:@_TEXT> """They are to a degree battle tested""" .
+<#ID_788023500> <urn:string:child> <ID_788023500> .
+<#ID_51564427> <urn:string:@_TEXT> """Most of the team are familiar with UNIX file systems""" .
+<#ID_51564427> <urn:string:child> <ID_51564427> .
+<#ID_807700318> <urn:string:@_TEXT> """A simple first proof of concept was needed to get the party started ie to allow a permissioned RWW with Web identity""" .
+<#ID_807700318> <urn:string:child> <ID_807700318> .
+<#ID_1644124876> <urn:string:@_TEXT> """Other techniquies are not excluded""" .
+<#ID_1644124876> <urn:string:child> <ID_1644124876> .
+<#ID_1764488130> <urn:string:@_TEXT> """Intuitive model to developers""" .
+<#ID_1764488130> <urn:string:child> <ID_1764488130> .
+<#ID_1154435863> <urn:string:@_TEXT> """Can reuse decades of file system infrastucture ( e.g. take a look at this excellent FUSE library )""" .
+<#ID_1154435863> <urn:string:child> <ID_1154435863> .
+<#ID_576985031> <urn:string:@_TEXT> """Why NOT ACLs""" .
+<#ID_576985031> <urn:string:child> <ID_576985031> .

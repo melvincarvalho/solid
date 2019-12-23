@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="WebACL" FOLDED="false" ID="ID_555367320" CREATED="1574934389442" MODIFIED="1574934478233" LINK="index.mm">
+<node TEXT="WebACL" FOLDED="false" ID="ID_555367320" CREATED="1574934389442" MODIFIED="1577081690815" LINK="index.mm" STYLE="oval">
 <edge STYLE="bezier" COLOR="#007c7c" WIDTH="thin" DASH="SOLID"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -63,8 +63,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="26" RULE="ON_BRANCH_CREATION"/>
-<font SIZE="13"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="28" RULE="ON_BRANCH_CREATION"/>
+<font SIZE="15"/>
 <node TEXT="github spec" POSITION="right" ID="ID_1474243793" CREATED="1574934514434" MODIFIED="1574934519462" LINK="https://github.com/solid/web-access-control-spec#web-access-control-wac">
 <edge COLOR="#0000ff"/>
 </node>
@@ -85,6 +85,19 @@
 <node TEXT="# Contents of https://alice.databox.me/docs/file1.acl&#xa;@prefix  acl:  &lt;http://www.w3.org/ns/auth/acl#&gt;  .&#xa;&#xa;&lt;#authorization1&gt;&#xa;    a             acl:Authorization;&#xa;    acl:agent     &lt;https://alice.databox.me/profile/card#me&gt;;  # Alice&apos;s WebID&#xa;    acl:accessTo  &lt;https://alice.databox.me/docs/file1&gt;;&#xa;    acl:mode      acl:Read,&#xa;                  acl:Write,&#xa;                  acl:Control." ID="ID_1470527495" CREATED="1574934589264" MODIFIED="1574936334856">
 <cloud COLOR="#ffffcc" SHAPE="ROUND_RECT"/>
 </node>
+</node>
+</node>
+<node TEXT="why acls" POSITION="left" ID="ID_290069770" CREATED="1577079069440" MODIFIED="1577081603419">
+<edge COLOR="#7c0000"/>
+<node TEXT="UNIX file permissions have been around a long time" ID="ID_1843932484" CREATED="1577079078535" MODIFIED="1577079078535"/>
+<node TEXT="They are to a degree battle tested" ID="ID_788023500" CREATED="1577079078542" MODIFIED="1577079078542"/>
+<node TEXT="Most of the team are familiar with UNIX file systems" ID="ID_51564427" CREATED="1577079078543" MODIFIED="1577079078543"/>
+<node TEXT="A simple first proof of concept was needed to get the party started ie to allow a permissioned RWW with Web identity" ID="ID_807700318" CREATED="1577079078543" MODIFIED="1577079078543"/>
+<node TEXT="Other techniquies are not excluded" ID="ID_1644124876" CREATED="1577079078543" MODIFIED="1577079078543"/>
+<node TEXT="Intuitive model to developers" ID="ID_1764488130" CREATED="1577079078545" MODIFIED="1577079078545"/>
+<node TEXT="Can reuse decades of file system infrastucture ( e.g. take a look at this excellent FUSE library )" ID="ID_1154435863" CREATED="1577079078546" MODIFIED="1577079078546"/>
+<node TEXT="Why NOT ACLs" ID="ID_576985031" CREATED="1577081618083" MODIFIED="1577081624462">
+<node TEXT="Video on macaroons" ID="ID_186771292" CREATED="1577081659826" MODIFIED="1577081668671" LINK="https://www.youtube.com/watch?v=QrVVMGpY7s8&amp;feature=youtu.be"/>
 </node>
 </node>
 </node>
