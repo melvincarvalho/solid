@@ -314,6 +314,27 @@
                                 "@_MODIFIED": 1574031073388,
                                 "@_LINK": "https://www.w3.org/TR/ldn/"
                             }
+                        },
+                        {
+                            "@_TEXT": "Colors",
+                            "@_ID": "ID_960031878",
+                            "@_CREATED": 1577179087843,
+                            "@_MODIFIED": 1577179091178,
+                            "@_LINK": "https://design.inrupt.com/atomic-core/?cat=Core#Colors",
+                            "node": [
+                                {
+                                    "@_TEXT": "#7C4DFF",
+                                    "@_ID": "ID_1864362129",
+                                    "@_CREATED": 1577177083068,
+                                    "@_MODIFIED": 1577177083068
+                                },
+                                {
+                                    "@_TEXT": "royal lavendar",
+                                    "@_ID": "ID_1993946970",
+                                    "@_CREATED": 1577177086745,
+                                    "@_MODIFIED": 1577177090171
+                                }
+                            ]
                         }
                     ]
                 }

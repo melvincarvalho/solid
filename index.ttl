@@ -12,3 +12,9 @@
 <#ID_671925292> <urn:string:child> <ID_671925292> .
 <#ID_1604622862> <urn:string:@_TEXT> """Specs""" .
 <#ID_1604622862> <urn:string:child> <ID_1604622862> .
+<#ID_960031878> <urn:string:@_TEXT> """Colors""" .
+<#ID_960031878> <urn:string:child> <ID_960031878> .
+<#ID_1864362129> <urn:string:@_TEXT> """#7C4DFF""" .
+<#ID_1864362129> <urn:string:child> <ID_1864362129> .
+<#ID_1993946970> <urn:string:@_TEXT> """royal lavendar""" .
+<#ID_1993946970> <urn:string:child> <ID_1993946970> .
