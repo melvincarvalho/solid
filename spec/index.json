@@ -226,19 +226,28 @@
                             "@_TEXT": "WebID",
                             "@_ID": "ID_579982698",
                             "@_CREATED": 1574934397266,
-                            "@_MODIFIED": 1574934408854
+                            "@_MODIFIED": 1577787164775,
+                            "@_LINK": "https://www.w3.org/2005/Incubator/webid/spec/"
                         },
                         {
                             "@_TEXT": "LDN",
                             "@_ID": "ID_1526341583",
                             "@_CREATED": 1574934411282,
-                            "@_MODIFIED": 1574934418594
+                            "@_MODIFIED": 1577787181884,
+                            "@_LINK": "https://www.w3.org/TR/ldn/"
+                        },
+                        {
+                            "@_TEXT": "websockets",
+                            "@_ID": "ID_1255342701",
+                            "@_CREATED": 1577787215882,
+                            "@_MODIFIED": 1577787220209,
+                            "@_LINK": "https://github.com/solid/solid-spec/blob/master/api-websockets.md"
                         }
                     ]
                 },
                 {
                     "@_TEXT": "versions",
-                    "@_POSITION": "right",
+                    "@_POSITION": "left",
                     "@_ID": "ID_1179681139",
                     "@_CREATED": 1574934423523,
                     "@_MODIFIED": 1574934428459,
