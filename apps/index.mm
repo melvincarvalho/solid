@@ -1,8 +1,9 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="solid" FOLDED="false" ID="ID_237352286" CREATED="1570576809840" MODIFIED="1578130064776" ICON_SIZE="16.0 pt" LINK="../tech/index.mm" STYLE="oval">
-<icon BUILTIN="wizard"/>
-<font SIZE="18"/>
+<node TEXT="Apps" FOLDED="false" ID="ID_527312312" CREATED="1572063758657" MODIFIED="1578130056529" LINK="../index.mm" HGAP_QUANTITY="-80.49999718368062 pt" VSHIFT_QUANTITY="-98.24999707192191 pt" COLOR="#000099">
+<icon BUILTIN="launch"/>
+<font SIZE="12" BOLD="true"/>
+<edge STYLE="bezier" COLOR="#00ff00" WIDTH="thin" DASH="SOLID"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
@@ -64,38 +65,34 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="20" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Apps" POSITION="right" ID="ID_1861071781" CREATED="1578130056712" MODIFIED="1578130064770" LINK="apps/index.mm" COLOR="#000099" HGAP_QUANTITY="-75.99999731779107 pt" VSHIFT_QUANTITY="-77.24999769777067 pt">
-<edge STYLE="bezier" COLOR="#00ff00" WIDTH="thin"/>
-<font SIZE="12" BOLD="true"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="21" RULE="ON_BRANCH_CREATION"/>
+<node POSITION="right" ID="ID_1071946324" CREATED="1578130074773" MODIFIED="1578130074779" LINK="https://solidapps.org/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://solidapps.org/">https://solidapps.org/</a> 
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#7c007c"/>
 </node>
-<node TEXT="spec" POSITION="right" ID="ID_45632273" CREATED="1574934349622" MODIFIED="1574934358562" LINK="spec/index.mm">
-<edge STYLE="bezier" COLOR="#00007c" WIDTH="thin"/>
-<font SIZE="11" BOLD="true"/>
-</node>
-<node TEXT="Tools" POSITION="right" ID="ID_1810859973" CREATED="1572063767900" MODIFIED="1574934302574" HGAP_QUANTITY="-72.24999742954977 pt" VSHIFT_QUANTITY="68.24999796599155 pt" COLOR="#666600">
-<icon BUILTIN="executable"/>
-<font SIZE="12" BOLD="true"/>
-<edge COLOR="#ff00ff"/>
-<node TEXT="Data Kitchen" ID="ID_464490085" CREATED="1573024190055" MODIFIED="1573024327376" LINK="https://github.com/solid/data-kitchen"/>
-<node TEXT="BrowserFS" ID="ID_254470917" CREATED="1573155072181" MODIFIED="1573155078101" LINK="https://github.com/jvilk/BrowserFS"/>
-<node TEXT="Fuse library" ID="ID_845285837" CREATED="1577063008573" MODIFIED="1577082125436" LINK="https://github.com/fuse-friends/fuse-native"/>
-</node>
-<node TEXT="Links" POSITION="left" ID="ID_777477932" CREATED="1572063875737" MODIFIED="1572064427848" COLOR="#660000">
-<icon BUILTIN="attach"/>
-<font SIZE="12" BOLD="true"/>
-<edge COLOR="#00ffff"/>
-<node TEXT="MIT" ID="ID_671925292" CREATED="1573024179269" MODIFIED="1573024358704" LINK="https://solid.mit.edu"/>
-<node TEXT="Specs" ID="ID_1604622862" CREATED="1574031057044" MODIFIED="1574031060459">
-<node TEXT="Linked Data Notifications" ID="ID_1990139043" CREATED="1574031062993" MODIFIED="1574031073388" LINK="https://www.w3.org/TR/ldn/"/>
-</node>
-<node TEXT="Colors" ID="ID_960031878" CREATED="1577179087843" MODIFIED="1577179091178" LINK="https://design.inrupt.com/atomic-core/?cat=Core#Colors">
-<node TEXT="#7C4DFF" ID="ID_1864362129" CREATED="1577177083068" MODIFIED="1577177083068"/>
-<node TEXT="royal lavendar" ID="ID_1993946970" CREATED="1577177086745" MODIFIED="1577177090171"/>
-</node>
-<node TEXT="issues" ID="ID_1662681886" CREATED="1577601478570" MODIFIED="1577601478579" LINK="issues/index.mm">
-<edge STYLE="bezier" COLOR="#00ffff" WIDTH="thin"/>
-</node>
+<node POSITION="left" ID="ID_1285619201" CREATED="1578130094329" MODIFIED="1578130094334" LINK="http://webid.im/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="http://webid.im/">http://webid.im/</a> 
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#007c7c"/>
+<node TEXT="github" ID="ID_1449615970" CREATED="1578215609149" MODIFIED="1578215613495" LINK="https://github.com/melvincarvalho/webid.im"/>
+<node TEXT="FLOSS Messengers" ID="ID_1381129542" CREATED="1578215615257" MODIFIED="1578215629820" LINK="https://github.com/melvincarvalho/webid.im/wiki/FLOSS-Messengers"/>
 </node>
 </node>
 </map>
