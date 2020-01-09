@@ -199,7 +199,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 21,
+                    "@_COUNTER": 23,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -267,6 +267,54 @@
                             "@_LINK": "https://github.com/melvincarvalho/webid.im/wiki/FLOSS-Messengers"
                         }
                     ]
+                },
+                {
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1009568646",
+                    "@_CREATED": 1578425918655,
+                    "@_MODIFIED": 1578497874089,
+                    "@_LINK": "https://scenaristeur.github.io/compagent-tuto/",
+                    "richcontent": {
+                        "@_TYPE": "NODE",
+                        "html": {
+                            "head": "",
+                            "body": {
+                                "a": {
+                                    "#text": "https://scenaristeur.github.io/compagent-tuto/",
+                                    "@_http-equiv": "content-type",
+                                    "@_content": "text/html; charset=utf-8",
+                                    "@_href": "https://scenaristeur.github.io/compagent-tuto/"
+                                }
+                            }
+                        }
+                    },
+                    "edge": {
+                        "@_COLOR": "#7c7c00"
+                    }
+                },
+                {
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1493791154",
+                    "@_CREATED": 1578497887712,
+                    "@_MODIFIED": 1578497887719,
+                    "@_LINK": "https://github.com/Darcy-Social/ibex",
+                    "richcontent": {
+                        "@_TYPE": "NODE",
+                        "html": {
+                            "head": "",
+                            "body": {
+                                "a": {
+                                    "#text": "https://github.com/Darcy-Social/ibex",
+                                    "@_http-equiv": "content-type",
+                                    "@_content": "text/html; charset=utf-8",
+                                    "@_href": "https://github.com/Darcy-Social/ibex"
+                                }
+                            }
+                        }
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff0000"
+                    }
                 }
             ]
         }

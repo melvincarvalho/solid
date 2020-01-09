@@ -206,14 +206,14 @@
                     "@_COLOR": "#000099",
                     "@_HGAP_QUANTITY": "-75.99999731779107 pt",
                     "@_VSHIFT_QUANTITY": "-77.24999769777067 pt",
+                    "font": {
+                        "@_SIZE": 12,
+                        "@_BOLD": true
+                    },
                     "edge": {
                         "@_STYLE": "bezier",
                         "@_COLOR": "#00ff00",
                         "@_WIDTH": "thin"
-                    },
-                    "font": {
-                        "@_SIZE": 12,
-                        "@_BOLD": true
                     }
                 },
                 {

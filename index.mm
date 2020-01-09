@@ -66,8 +66,8 @@
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="20" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Apps" POSITION="right" ID="ID_1861071781" CREATED="1578130056712" MODIFIED="1578130064770" LINK="apps/index.mm" COLOR="#000099" HGAP_QUANTITY="-75.99999731779107 pt" VSHIFT_QUANTITY="-77.24999769777067 pt">
-<edge STYLE="bezier" COLOR="#00ff00" WIDTH="thin"/>
 <font SIZE="12" BOLD="true"/>
+<edge STYLE="bezier" COLOR="#00ff00" WIDTH="thin"/>
 </node>
 <node TEXT="spec" POSITION="right" ID="ID_45632273" CREATED="1574934349622" MODIFIED="1574934358562" LINK="spec/index.mm">
 <edge STYLE="bezier" COLOR="#00007c" WIDTH="thin"/>
