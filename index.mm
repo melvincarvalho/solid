@@ -85,6 +85,20 @@
 <icon BUILTIN="attach"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#00ffff"/>
+<node ID="ID_1974475433" CREATED="1578928125418" MODIFIED="1578930262924" LINK="https://webmaps.io/" COLOR="#000099"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    Made with <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" style="border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none"/>&#160;using webmaps.io
+  </body>
+</html>
+
+</richcontent>
+<font SIZE="10" BOLD="true"/>
+</node>
 <node TEXT="MIT" ID="ID_671925292" CREATED="1573024179269" MODIFIED="1573024358704" LINK="https://solid.mit.edu"/>
 <node TEXT="Specs" ID="ID_1604622862" CREATED="1574031057044" MODIFIED="1574031060459">
 <node TEXT="Linked Data Notifications" ID="ID_1990139043" CREATED="1574031062993" MODIFIED="1574031073388" LINK="https://www.w3.org/TR/ldn/"/>
