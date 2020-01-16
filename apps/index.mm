@@ -65,7 +65,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="23" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="24" RULE="ON_BRANCH_CREATION"/>
 <node POSITION="right" ID="ID_1071946324" CREATED="1578130074773" MODIFIED="1578130074779" LINK="https://solidapps.org/"><richcontent TYPE="NODE">
 
 <html>
@@ -117,9 +117,11 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/Darcy-Social/ibex">https://github.com/Darcy-Social/ibex</a> 
   </body>
 </html>
-
 </richcontent>
 <edge COLOR="#ff0000"/>
+</node>
+<node TEXT="https://github.com/jeff-zucker/solid-rest" POSITION="right" ID="ID_1316215688" CREATED="1579166716602" MODIFIED="1579166716612" LINK="https://github.com/jeff-zucker/solid-rest">
+<edge COLOR="#0000ff"/>
 </node>
 </node>
 </map>

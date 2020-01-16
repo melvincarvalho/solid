@@ -199,7 +199,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 23,
+                    "@_COUNTER": 24,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -314,6 +314,17 @@
                     },
                     "edge": {
                         "@_COLOR": "#ff0000"
+                    }
+                },
+                {
+                    "@_TEXT": "https://github.com/jeff-zucker/solid-rest",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1316215688",
+                    "@_CREATED": 1579166716602,
+                    "@_MODIFIED": 1579166716612,
+                    "@_LINK": "https://github.com/jeff-zucker/solid-rest",
+                    "edge": {
+                        "@_COLOR": "#0000ff"
                     }
                 }
             ]
