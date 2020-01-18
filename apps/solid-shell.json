@@ -1,0 +1,548 @@
+{
+    "map": {
+        "@_version": "freeplane 1.7.0",
+        "node": {
+            "@_TEXT": "solid shell",
+            "@_FOLDED": false,
+            "@_ID": "ID_1831615648",
+            "@_CREATED": 1569272472516,
+            "@_MODIFIED": 1571345636302,
+            "@_ICON_SIZE": "20.0 pt",
+            "@_LINK": "index.mm",
+            "@_STYLE": "oval",
+            "icon": {
+                "@_BUILTIN": "bookmark"
+            },
+            "font": {
+                "@_SIZE": 18
+            },
+            "hook": [
+                {
+                    "@_NAME": "MapStyle",
+                    "properties": {
+                        "@_edgeColorConfiguration": "#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff",
+                        "@_fit_to_viewport": false
+                    },
+                    "map_styles": {
+                        "stylenode": {
+                            "@_LOCALIZED_TEXT": "styles.root_node",
+                            "@_STYLE": "oval",
+                            "@_UNIFORM_SHAPE": true,
+                            "@_VGAP_QUANTITY": "24.0 pt",
+                            "font": {
+                                "@_SIZE": 24
+                            },
+                            "stylenode": [
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.predefined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "default",
+                                            "@_ICON_SIZE": "12.0 pt",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "SansSerif",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": false,
+                                                "@_ITALIC": false
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.details"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.attributes",
+                                            "font": {
+                                                "@_SIZE": 9
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.note",
+                                            "@_COLOR": "#000000",
+                                            "@_BACKGROUND_COLOR": "#ffffff",
+                                            "@_TEXT_ALIGN": "LEFT"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.floating",
+                                            "edge": {
+                                                "@_STYLE": "hide_edge"
+                                            },
+                                            "cloud": {
+                                                "@_COLOR": "#f0f0f0",
+                                                "@_SHAPE": "ROUND_RECT"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.user-defined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.topic",
+                                            "@_COLOR": "#18898b",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subtopic",
+                                            "@_COLOR": "#cc3300",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subsubtopic",
+                                            "@_COLOR": "#669900",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.important",
+                                            "icon": {
+                                                "@_BUILTIN": "yes"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.AutomaticLayout",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level.root",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "oval",
+                                            "@_SHAPE_HORIZONTAL_MARGIN": "10.0 pt",
+                                            "@_SHAPE_VERTICAL_MARGIN": "10.0 pt",
+                                            "font": {
+                                                "@_SIZE": 18
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,1",
+                                            "@_COLOR": "#0033ff",
+                                            "font": {
+                                                "@_SIZE": 16
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,2",
+                                            "@_COLOR": "#00b439",
+                                            "font": {
+                                                "@_SIZE": 14
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,3",
+                                            "@_COLOR": "#990000",
+                                            "font": {
+                                                "@_SIZE": 12
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,4",
+                                            "@_COLOR": "#111111",
+                                            "font": {
+                                                "@_SIZE": 10
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,5"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,6"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,7"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,8"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,9"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,10"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "@_NAME": "AutomaticEdgeColor",
+                    "@_COUNTER": 8,
+                    "@_RULE": "ON_BRANCH_CREATION"
+                }
+            ],
+            "node": [
+                {
+                    "@_TEXT": "Summary",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1226961462",
+                    "@_CREATED": 1570979963389,
+                    "@_MODIFIED": 1570980209554,
+                    "@_COLOR": "#3333ff",
+                    "icon": {
+                        "@_BUILTIN": "wizard"
+                    },
+                    "font": {
+                        "@_SIZE": 11,
+                        "@_BOLD": true
+                    },
+                    "edge": {
+                        "@_COLOR": "#0000ff"
+                    },
+                    "node": {
+                        "@_TEXT": "a command-line tool, batch processor, and interactive shell for managing Solid data",
+                        "@_ID": "ID_171104944",
+                        "@_CREATED": 1579340151849,
+                        "@_MODIFIED": 1579340151849
+                    }
+                },
+                {
+                    "@_TEXT": "Commands",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1722423935",
+                    "@_CREATED": 1579340646766,
+                    "@_MODIFIED": 1579340661777,
+                    "edge": {
+                        "@_COLOR": "#007c00"
+                    },
+                    "font": {
+                        "@_BOLD": true
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "read",
+                            "@_ID": "ID_336706969",
+                            "@_CREATED": 1579340759424,
+                            "@_MODIFIED": 1579340764437,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": "ls",
+                                    "@_ID": "ID_560754675",
+                                    "@_CREATED": 1579340698189,
+                                    "@_MODIFIED": 1579340715346,
+                                    "font": {
+                                        "@_BOLD": true
+                                    },
+                                    "node": {
+                                        "@_TEXT": "list file or folder contents",
+                                        "@_ID": "ID_379186035",
+                                        "@_CREATED": 1579340706252,
+                                        "@_MODIFIED": 1579340713048
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "head",
+                                    "@_ID": "ID_669609548",
+                                    "@_CREATED": 1579340719897,
+                                    "@_MODIFIED": 1579340723850,
+                                    "font": {
+                                        "@_BOLD": true
+                                    },
+                                    "node": {
+                                        "@_TEXT": "show headers for a URI",
+                                        "@_ID": "ID_1397962710",
+                                        "@_CREATED": 1579340725507,
+                                        "@_MODIFIED": 1579340752280
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "write",
+                            "@_ID": "ID_1738143131",
+                            "@_CREATED": 1579340780437,
+                            "@_MODIFIED": 1579340785786,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": "rm",
+                                    "@_ID": "ID_151996486",
+                                    "@_CREATED": 1579340789067,
+                                    "@_MODIFIED": 1579340791693,
+                                    "font": {
+                                        "@_BOLD": true
+                                    },
+                                    "node": {
+                                        "@_TEXT": "delete a file or folder",
+                                        "@_ID": "ID_790025294",
+                                        "@_CREATED": 1579340802358,
+                                        "@_MODIFIED": 1579340891338,
+                                        "node": {
+                                            "@_TEXT": "recursive",
+                                            "@_ID": "ID_1727624008",
+                                            "@_CREATED": 1579340873635,
+                                            "@_MODIFIED": 1579340878396
+                                        }
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "mv",
+                                    "@_ID": "ID_191279808",
+                                    "@_CREATED": 1579340818727,
+                                    "@_MODIFIED": 1579340821274,
+                                    "font": {
+                                        "@_BOLD": true
+                                    },
+                                    "node": {
+                                        "@_TEXT": "move a file or folder",
+                                        "@_ID": "ID_814488990",
+                                        "@_CREATED": 1579340822803,
+                                        "@_MODIFIED": 1579340865245,
+                                        "node": {
+                                            "@_TEXT": "recursive",
+                                            "@_ID": "ID_1658163749",
+                                            "@_CREATED": 1579340867108,
+                                            "@_MODIFIED": 1579340871933
+                                        }
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "cr",
+                                    "@_ID": "ID_1436026523",
+                                    "@_CREATED": 1579340910011,
+                                    "@_MODIFIED": 1579340916108,
+                                    "font": {
+                                        "@_BOLD": true
+                                    },
+                                    "node": {
+                                        "@_TEXT": "create file",
+                                        "@_ID": "ID_248903673",
+                                        "@_CREATED": 1579340917664,
+                                        "@_MODIFIED": 1579340925476,
+                                        "node": {
+                                            "@_TEXT": "content",
+                                            "@_ID": "ID_740959270",
+                                            "@_CREATED": 1579340926151,
+                                            "@_MODIFIED": 1579340930632
+                                        }
+                                    }
+                                },
+                                {
+                                    "@_TEXT": "cp",
+                                    "@_ID": "ID_1276749043",
+                                    "@_CREATED": 1579340953776,
+                                    "@_MODIFIED": 1579340957865,
+                                    "font": {
+                                        "@_BOLD": true
+                                    },
+                                    "node": {
+                                        "@_TEXT": "copy file or folder",
+                                        "@_ID": "ID_76714027",
+                                        "@_CREATED": 1579340960501,
+                                        "@_MODIFIED": 1579340964875,
+                                        "node": [
+                                            {
+                                                "@_TEXT": "recursive",
+                                                "@_ID": "ID_636500762",
+                                                "@_CREATED": 1579340966252,
+                                                "@_MODIFIED": 1579340968630
+                                            },
+                                            {
+                                                "@_TEXT": "cps",
+                                                "@_ID": "ID_926022075",
+                                                "@_CREATED": 1579340969718,
+                                                "@_MODIFIED": 1579340973418,
+                                                "node": {
+                                                    "@_TEXT": "source merge",
+                                                    "@_ID": "ID_1467894638",
+                                                    "@_CREATED": 1579340974428,
+                                                    "@_MODIFIED": 1579340979096
+                                                }
+                                            },
+                                            {
+                                                "@_TEXT": "cpt",
+                                                "@_ID": "ID_357343250",
+                                                "@_CREATED": 1579340980585,
+                                                "@_MODIFIED": 1579340982037,
+                                                "node": {
+                                                    "@_TEXT": "target merge",
+                                                    "@_ID": "ID_703375818",
+                                                    "@_CREATED": 1579340982812,
+                                                    "@_MODIFIED": 1579340987736
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@_TEXT": "execute",
+                            "@_ID": "ID_44121259",
+                            "@_CREATED": 1579340995518,
+                            "@_MODIFIED": 1579341008151,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "run",
+                                "@_ID": "ID_207147563",
+                                "@_CREATED": 1579340653767,
+                                "@_MODIFIED": 1579341018540,
+                                "font": {
+                                    "@_BOLD": true
+                                },
+                                "node": [
+                                    {
+                                        "@_TEXT": "run a batch file of commands",
+                                        "@_ID": "ID_636216389",
+                                        "@_CREATED": 1579341020439,
+                                        "@_MODIFIED": 1579341031588
+                                    },
+                                    {
+                                        "@_TEXT": "verbosity 0&#xa;    rm ./test-folder/&#xa;    cr ./test-folder/&#xa;    cr ./test-folder/test-file.txt This is a text file.&#xa;    test files ./test-folder/ test-file.txt&#xa;    test content ./test-folder/test-file.txt This is a text file.&#xa;    rm ./test-folder/",
+                                        "@_ID": "ID_1376904582",
+                                        "@_CREATED": 1579341070553,
+                                        "@_MODIFIED": 1579341079765
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "links",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_808607355",
+                    "@_CREATED": 1570968728188,
+                    "@_MODIFIED": 1570968728190,
+                    "icon": {
+                        "@_BUILTIN": "attach"
+                    },
+                    "edge": {
+                        "@_COLOR": "#00007c"
+                    },
+                    "node": [
+                        {
+                            "@_ID": "ID_876999366",
+                            "@_CREATED": 1579340136816,
+                            "@_MODIFIED": 1579340136816,
+                            "@_LINK": "https://github.com/jeff-zucker/solid-shell#solid-shell-sol",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://github.com/jeff-zucker/solid-shell#solid-shell-sol",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://github.com/jeff-zucker/solid-shell#solid-shell-sol"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "@_TEXT": "rdf shell",
+                            "@_ID": "ID_1418721847",
+                            "@_CREATED": 1579341403696,
+                            "@_MODIFIED": 1579341410269,
+                            "@_LINK": "https://github.com/melvincarvalho/rdf-shell"
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "docs",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1100215200",
+                    "@_CREATED": 1570969039178,
+                    "@_MODIFIED": 1570980265221,
+                    "icon": {
+                        "@_BUILTIN": "folder"
+                    },
+                    "edge": {
+                        "@_COLOR": "#ff00ff"
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "Config",
+                            "@_ID": "ID_1751580259",
+                            "@_CREATED": 1579340434755,
+                            "@_MODIFIED": 1579340683580,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": {
+                                "@_TEXT": "~/.solid-auth-cli-config.json",
+                                "@_ID": "ID_1612448959",
+                                "@_CREATED": 1579340440433,
+                                "@_MODIFIED": 1579340473847,
+                                "node": {
+                                    "@_TEXT": "const credentials = {&#xa;         &quot;idp&quot; : &quot;https://solid.community&quot;,&#xa;    &quot;username&quot; : &quot;jeffz.&quot;,&#xa;    &quot;password&quot; : &quot;...&quot;,&#xa;        &quot;base&quot; : &quot;https://solid.community/public&quot;&#xa;  }",
+                                    "@_ID": "ID_1824119733",
+                                    "@_CREATED": 1579340482953,
+                                    "@_MODIFIED": 1579340504856
+                                }
+                            }
+                        },
+                        {
+                            "@_TEXT": "Installation",
+                            "@_ID": "ID_898178815",
+                            "@_CREATED": 1579340160979,
+                            "@_MODIFIED": 1579340685388,
+                            "font": {
+                                "@_BOLD": true
+                            },
+                            "node": [
+                                {
+                                    "@_TEXT": "npx sol",
+                                    "@_ID": "ID_741276156",
+                                    "@_CREATED": 1579340186116,
+                                    "@_MODIFIED": 1579340193392
+                                },
+                                {
+                                    "@_TEXT": "npx -g",
+                                    "@_ID": "ID_1475381799",
+                                    "@_CREATED": 1579340186116,
+                                    "@_MODIFIED": 1579340237015
+                                },
+                                {
+                                    "@_TEXT": "clone",
+                                    "@_ID": "ID_1769641517",
+                                    "@_CREATED": 1579340283923,
+                                    "@_MODIFIED": 1579340287321,
+                                    "node": {
+                                        "@_TEXT": "./sol",
+                                        "@_ID": "ID_503463925",
+                                        "@_CREATED": 1579340288352,
+                                        "@_MODIFIED": 1579340290658
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

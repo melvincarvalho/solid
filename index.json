@@ -214,6 +214,18 @@
                         "@_STYLE": "bezier",
                         "@_COLOR": "#00ff00",
                         "@_WIDTH": "thin"
+                    },
+                    "node": {
+                        "@_TEXT": "databrowser",
+                        "@_ID": "ID_589909741",
+                        "@_CREATED": 1579167473579,
+                        "@_MODIFIED": 1579167473584,
+                        "@_LINK": "databrowser/index.mm",
+                        "edge": {
+                            "@_STYLE": "bezier",
+                            "@_COLOR": "#00ff00",
+                            "@_WIDTH": "thin"
+                        }
                     }
                 },
                 {

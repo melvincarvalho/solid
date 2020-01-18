@@ -1,0 +1,36 @@
+<#ID_1226961462> <urn:string:@_TEXT> """Summary""" .
+<#ID_1722423935> <urn:string:@_TEXT> """Commands""" .
+<#ID_336706969> <urn:string:@_TEXT> """read""" .
+<#ID_336706969> <urn:string:child> <ID_336706969> .
+<#ID_560754675> <urn:string:@_TEXT> """ls""" .
+<#ID_560754675> <urn:string:child> <ID_560754675> .
+<#ID_669609548> <urn:string:@_TEXT> """head""" .
+<#ID_669609548> <urn:string:child> <ID_669609548> .
+<#ID_1738143131> <urn:string:@_TEXT> """write""" .
+<#ID_1738143131> <urn:string:child> <ID_1738143131> .
+<#ID_151996486> <urn:string:@_TEXT> """rm""" .
+<#ID_151996486> <urn:string:child> <ID_151996486> .
+<#ID_191279808> <urn:string:@_TEXT> """mv""" .
+<#ID_191279808> <urn:string:child> <ID_191279808> .
+<#ID_1436026523> <urn:string:@_TEXT> """cr""" .
+<#ID_1436026523> <urn:string:child> <ID_1436026523> .
+<#ID_1276749043> <urn:string:@_TEXT> """cp""" .
+<#ID_1276749043> <urn:string:child> <ID_1276749043> .
+<#ID_44121259> <urn:string:@_TEXT> """execute""" .
+<#ID_44121259> <urn:string:child> <ID_44121259> .
+<#ID_808607355> <urn:string:@_TEXT> """links""" .
+<#ID_876999366> <urn:string:@_TEXT> """undefined""" .
+<#ID_876999366> <urn:string:child> <ID_876999366> .
+<#ID_1418721847> <urn:string:@_TEXT> """rdf shell""" .
+<#ID_1418721847> <urn:string:child> <ID_1418721847> .
+<#ID_1100215200> <urn:string:@_TEXT> """docs""" .
+<#ID_1751580259> <urn:string:@_TEXT> """Config""" .
+<#ID_1751580259> <urn:string:child> <ID_1751580259> .
+<#ID_898178815> <urn:string:@_TEXT> """Installation""" .
+<#ID_898178815> <urn:string:child> <ID_898178815> .
+<#ID_741276156> <urn:string:@_TEXT> """npx sol""" .
+<#ID_741276156> <urn:string:child> <ID_741276156> .
+<#ID_1475381799> <urn:string:@_TEXT> """npx -g""" .
+<#ID_1475381799> <urn:string:child> <ID_1475381799> .
+<#ID_1769641517> <urn:string:@_TEXT> """clone""" .
+<#ID_1769641517> <urn:string:child> <ID_1769641517> .

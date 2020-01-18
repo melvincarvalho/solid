@@ -2,22 +2,13 @@
     "map": {
         "@_version": "freeplane 1.7.0",
         "node": {
-            "@_TEXT": "Apps",
+            "@_TEXT": "databrowser",
             "@_FOLDED": false,
-            "@_ID": "ID_527312312",
-            "@_CREATED": 1572063758657,
-            "@_MODIFIED": 1578130056529,
+            "@_ID": "ID_1977146868",
+            "@_CREATED": 1579167437781,
+            "@_MODIFIED": 1579167489848,
             "@_LINK": "../index.mm",
-            "@_HGAP_QUANTITY": "-80.49999718368062 pt",
-            "@_VSHIFT_QUANTITY": "-98.24999707192191 pt",
-            "@_COLOR": "#000099",
-            "icon": {
-                "@_BUILTIN": "launch"
-            },
-            "font": {
-                "@_SIZE": 12,
-                "@_BOLD": true
-            },
+            "@_STYLE": "oval",
             "edge": {
                 "@_STYLE": "bezier",
                 "@_COLOR": "#00ff00",
@@ -199,146 +190,13 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 25,
+                    "@_COUNTER": 20,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
-            "node": [
-                {
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1071946324",
-                    "@_CREATED": 1578130074773,
-                    "@_MODIFIED": 1578130074779,
-                    "@_LINK": "https://solidapps.org/",
-                    "richcontent": {
-                        "@_TYPE": "NODE",
-                        "html": {
-                            "head": "",
-                            "body": {
-                                "a": {
-                                    "#text": "https://solidapps.org/",
-                                    "@_http-equiv": "content-type",
-                                    "@_content": "text/html; charset=utf-8",
-                                    "@_href": "https://solidapps.org/"
-                                }
-                            }
-                        }
-                    },
-                    "edge": {
-                        "@_COLOR": "#7c007c"
-                    }
-                },
-                {
-                    "@_POSITION": "left",
-                    "@_ID": "ID_1285619201",
-                    "@_CREATED": 1578130094329,
-                    "@_MODIFIED": 1578130094334,
-                    "@_LINK": "http://webid.im/",
-                    "richcontent": {
-                        "@_TYPE": "NODE",
-                        "html": {
-                            "head": "",
-                            "body": {
-                                "a": {
-                                    "#text": "http://webid.im/",
-                                    "@_http-equiv": "content-type",
-                                    "@_content": "text/html; charset=utf-8",
-                                    "@_href": "http://webid.im/"
-                                }
-                            }
-                        }
-                    },
-                    "edge": {
-                        "@_COLOR": "#007c7c"
-                    },
-                    "node": [
-                        {
-                            "@_TEXT": "github",
-                            "@_ID": "ID_1449615970",
-                            "@_CREATED": 1578215609149,
-                            "@_MODIFIED": 1578215613495,
-                            "@_LINK": "https://github.com/melvincarvalho/webid.im"
-                        },
-                        {
-                            "@_TEXT": "FLOSS Messengers",
-                            "@_ID": "ID_1381129542",
-                            "@_CREATED": 1578215615257,
-                            "@_MODIFIED": 1578215629820,
-                            "@_LINK": "https://github.com/melvincarvalho/webid.im/wiki/FLOSS-Messengers"
-                        }
-                    ]
-                },
-                {
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1009568646",
-                    "@_CREATED": 1578425918655,
-                    "@_MODIFIED": 1578497874089,
-                    "@_LINK": "https://scenaristeur.github.io/compagent-tuto/",
-                    "richcontent": {
-                        "@_TYPE": "NODE",
-                        "html": {
-                            "head": "",
-                            "body": {
-                                "a": {
-                                    "#text": "https://scenaristeur.github.io/compagent-tuto/",
-                                    "@_http-equiv": "content-type",
-                                    "@_content": "text/html; charset=utf-8",
-                                    "@_href": "https://scenaristeur.github.io/compagent-tuto/"
-                                }
-                            }
-                        }
-                    },
-                    "edge": {
-                        "@_COLOR": "#7c7c00"
-                    }
-                },
-                {
-                    "@_POSITION": "left",
-                    "@_ID": "ID_1493791154",
-                    "@_CREATED": 1578497887712,
-                    "@_MODIFIED": 1578497887719,
-                    "@_LINK": "https://github.com/Darcy-Social/ibex",
-                    "richcontent": {
-                        "@_TYPE": "NODE",
-                        "html": {
-                            "head": "",
-                            "body": {
-                                "a": {
-                                    "#text": "https://github.com/Darcy-Social/ibex",
-                                    "@_http-equiv": "content-type",
-                                    "@_content": "text/html; charset=utf-8",
-                                    "@_href": "https://github.com/Darcy-Social/ibex"
-                                }
-                            }
-                        }
-                    },
-                    "edge": {
-                        "@_COLOR": "#ff0000"
-                    }
-                },
-                {
-                    "@_TEXT": "https://github.com/jeff-zucker/solid-rest",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1316215688",
-                    "@_CREATED": 1579166716602,
-                    "@_MODIFIED": 1579166716612,
-                    "@_LINK": "https://github.com/jeff-zucker/solid-rest",
-                    "edge": {
-                        "@_COLOR": "#0000ff"
-                    }
-                },
-                {
-                    "@_TEXT": "solid-shell",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_76390485",
-                    "@_CREATED": 1579341722271,
-                    "@_MODIFIED": 1579341731939,
-                    "@_LINK": "solid-shell.mm",
-                    "edge": {
-                        "@_COLOR": "#00ff00"
-                    }
-                }
-            ]
+            "font": {
+                "@_SIZE": 18
+            }
         }
     }
 }
