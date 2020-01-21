@@ -1,6 +1,7 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="spec" FOLDED="false" ID="ID_287089019" CREATED="1574934309018" MODIFIED="1574934380992" LINK="../index.mm" HGAP_QUANTITY="18.499999865889553 pt" VSHIFT_QUANTITY="-2.9999999105930355 pt">
+<node TEXT="spec" FOLDED="false" ID="ID_287089019" CREATED="1574934309018" MODIFIED="1579382699561" LINK="../index.mm" HGAP_QUANTITY="18.499999865889553 pt" VSHIFT_QUANTITY="-2.9999999105930355 pt" STYLE="oval">
+<font SIZE="18" BOLD="false"/>
 <edge STYLE="bezier" COLOR="#00007c" WIDTH="thin" DASH="SOLID"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -63,8 +64,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="22" RULE="ON_BRANCH_CREATION"/>
-<font SIZE="14" BOLD="false"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="23" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="components" POSITION="right" ID="ID_1400406879" CREATED="1574934400059" MODIFIED="1574934404387">
 <edge COLOR="#007c7c"/>
 <node TEXT="WebACL" ID="ID_770938237" CREATED="1574934472236" MODIFIED="1574934472237" LINK="WebACL.mm">
@@ -73,6 +73,10 @@
 <node TEXT="WebID" ID="ID_579982698" CREATED="1574934397266" MODIFIED="1577787164775" LINK="https://www.w3.org/2005/Incubator/webid/spec/"/>
 <node TEXT="LDN" ID="ID_1526341583" CREATED="1574934411282" MODIFIED="1577787181884" LINK="https://www.w3.org/TR/ldn/"/>
 <node TEXT="websockets" ID="ID_1255342701" CREATED="1577787215882" MODIFIED="1577787220209" LINK="https://github.com/solid/solid-spec/blob/master/api-websockets.md"/>
+</node>
+<node TEXT="principles" POSITION="right" ID="ID_1318552121" CREATED="1579382623378" MODIFIED="1579382628301">
+<edge COLOR="#ff0000"/>
+<node TEXT="gitter discussion on file and http uris" ID="ID_706761010" CREATED="1579108381700" MODIFIED="1579382656877" LINK="https://gitter.im/solid/chat?at=5e1f3acb32c2e05ecc4b3d54"/>
 </node>
 <node TEXT="versions" POSITION="left" ID="ID_1179681139" CREATED="1574934423523" MODIFIED="1574934428459">
 <edge COLOR="#7c7c00"/>

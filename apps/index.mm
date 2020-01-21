@@ -65,7 +65,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="25" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="26" RULE="ON_BRANCH_CREATION"/>
 <node POSITION="right" ID="ID_1071946324" CREATED="1578130074773" MODIFIED="1578130074779" LINK="https://solidapps.org/"><richcontent TYPE="NODE">
 
 <html>
@@ -125,6 +125,9 @@
 </node>
 <node TEXT="solid-shell" POSITION="right" ID="ID_76390485" CREATED="1579341722271" MODIFIED="1579341731939" LINK="solid-shell.mm">
 <edge COLOR="#00ff00"/>
+</node>
+<node TEXT="solid-rest" POSITION="right" ID="ID_849083085" CREATED="1579166696671" MODIFIED="1579382559368" LINK="https://github.com/jeff-zucker/solid-rest">
+<edge COLOR="#ff00ff"/>
 </node>
 </node>
 </map>

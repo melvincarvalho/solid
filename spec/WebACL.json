@@ -9,6 +9,9 @@
             "@_MODIFIED": 1577081690815,
             "@_LINK": "index.mm",
             "@_STYLE": "oval",
+            "font": {
+                "@_SIZE": 15
+            },
             "edge": {
                 "@_STYLE": "bezier",
                 "@_COLOR": "#007c7c",
@@ -194,9 +197,6 @@
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
-            "font": {
-                "@_SIZE": 15
-            },
             "node": [
                 {
                     "@_TEXT": "github spec",

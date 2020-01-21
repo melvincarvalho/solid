@@ -6,10 +6,15 @@
             "@_FOLDED": false,
             "@_ID": "ID_287089019",
             "@_CREATED": 1574934309018,
-            "@_MODIFIED": 1574934380992,
+            "@_MODIFIED": 1579382699561,
             "@_LINK": "../index.mm",
             "@_HGAP_QUANTITY": "18.499999865889553 pt",
             "@_VSHIFT_QUANTITY": "-2.9999999105930355 pt",
+            "@_STYLE": "oval",
+            "font": {
+                "@_SIZE": 18,
+                "@_BOLD": false
+            },
             "edge": {
                 "@_STYLE": "bezier",
                 "@_COLOR": "#00007c",
@@ -191,14 +196,10 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 22,
+                    "@_COUNTER": 23,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
-            "font": {
-                "@_SIZE": 14,
-                "@_BOLD": false
-            },
             "node": [
                 {
                     "@_TEXT": "components",
@@ -244,6 +245,23 @@
                             "@_LINK": "https://github.com/solid/solid-spec/blob/master/api-websockets.md"
                         }
                     ]
+                },
+                {
+                    "@_TEXT": "principles",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1318552121",
+                    "@_CREATED": 1579382623378,
+                    "@_MODIFIED": 1579382628301,
+                    "edge": {
+                        "@_COLOR": "#ff0000"
+                    },
+                    "node": {
+                        "@_TEXT": "gitter discussion on file and http uris",
+                        "@_ID": "ID_706761010",
+                        "@_CREATED": 1579108381700,
+                        "@_MODIFIED": 1579382656877,
+                        "@_LINK": "https://gitter.im/solid/chat?at=5e1f3acb32c2e05ecc4b3d54"
+                    }
                 },
                 {
                     "@_TEXT": "versions",

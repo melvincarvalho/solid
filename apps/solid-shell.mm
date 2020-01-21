@@ -3,7 +3,7 @@
 <node TEXT="solid shell" FOLDED="false" ID="ID_1831615648" CREATED="1569272472516" MODIFIED="1571345636302" ICON_SIZE="20.0 pt" LINK="index.mm" STYLE="oval">
 <icon BUILTIN="bookmark"/>
 <font SIZE="18"/>
-<hook NAME="MapStyle">
+<hook NAME="MapStyle" zoom="0.909">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -64,18 +64,22 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Summary" POSITION="right" ID="ID_1226961462" CREATED="1570979963389" MODIFIED="1570980209554" COLOR="#3333ff">
+<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Summary" POSITION="right" ID="ID_1226961462" CREATED="1570979963389" MODIFIED="1579454752360" COLOR="#3333ff">
 <icon BUILTIN="wizard"/>
 <font SIZE="11" BOLD="true"/>
 <edge COLOR="#0000ff"/>
-<node TEXT="a command-line tool, batch processor, and interactive shell for managing Solid data" ID="ID_171104944" CREATED="1579340151849" MODIFIED="1579340151849"/>
+<node TEXT="A command-line tool, batch processor, and interactive shell for managing Solid data" ID="ID_171104944" CREATED="1579340151849" MODIFIED="1579454731128">
+<hook URI="solid-shell.html_files/image.png" SIZE="0.3629764" NAME="ExternalObject"/>
+</node>
+<node TEXT="web map" ID="ID_283016720" CREATED="1579454768696" MODIFIED="1579454814651" LINK="solid-shell.html"/>
 </node>
 <node TEXT="Commands" POSITION="right" ID="ID_1722423935" CREATED="1579340646766" MODIFIED="1579340661777">
 <edge COLOR="#007c00"/>
 <font BOLD="true"/>
 <node TEXT="read" ID="ID_336706969" CREATED="1579340759424" MODIFIED="1579340764437">
 <font BOLD="true"/>
+<node TEXT="Read to your pod" ID="ID_1451166504" CREATED="1579441865206" MODIFIED="1579441869421"/>
 <node TEXT="ls" ID="ID_560754675" CREATED="1579340698189" MODIFIED="1579340715346">
 <font BOLD="true"/>
 <node TEXT="list file or folder contents" ID="ID_379186035" CREATED="1579340706252" MODIFIED="1579340713048"/>
@@ -87,65 +91,42 @@
 </node>
 <node TEXT="write" ID="ID_1738143131" CREATED="1579340780437" MODIFIED="1579340785786">
 <font BOLD="true"/>
+<node TEXT="Write to your Pod" ID="ID_1782711751" CREATED="1579441873774" MODIFIED="1579441884825"/>
 <node TEXT="rm" ID="ID_151996486" CREATED="1579340789067" MODIFIED="1579340791693">
 <font BOLD="true"/>
-<node TEXT="delete a file or folder" ID="ID_790025294" CREATED="1579340802358" MODIFIED="1579340891338">
-<node TEXT="recursive" ID="ID_1727624008" CREATED="1579340873635" MODIFIED="1579340878396"/>
-</node>
+<node TEXT="delete a file or folder - recursive" ID="ID_790025294" CREATED="1579340802358" MODIFIED="1579442041714"/>
 </node>
 <node TEXT="mv" ID="ID_191279808" CREATED="1579340818727" MODIFIED="1579340821274">
 <font BOLD="true"/>
-<node TEXT="move a file or folder" ID="ID_814488990" CREATED="1579340822803" MODIFIED="1579340865245">
-<node TEXT="recursive" ID="ID_1658163749" CREATED="1579340867108" MODIFIED="1579340871933"/>
-</node>
+<node TEXT="move a file or folder - recursive" ID="ID_814488990" CREATED="1579340822803" MODIFIED="1579442049072"/>
 </node>
 <node TEXT="cr" ID="ID_1436026523" CREATED="1579340910011" MODIFIED="1579340916108">
 <font BOLD="true"/>
-<node TEXT="create file" ID="ID_248903673" CREATED="1579340917664" MODIFIED="1579340925476">
-<node TEXT="content" ID="ID_740959270" CREATED="1579340926151" MODIFIED="1579340930632"/>
-</node>
+<node TEXT="create file &lt;content&gt;" ID="ID_248903673" CREATED="1579340917664" MODIFIED="1579442060935"/>
 </node>
 <node TEXT="cp" ID="ID_1276749043" CREATED="1579340953776" MODIFIED="1579340957865">
 <font BOLD="true"/>
-<node TEXT="copy file or folder" ID="ID_76714027" CREATED="1579340960501" MODIFIED="1579340964875">
-<node TEXT="recursive" ID="ID_636500762" CREATED="1579340966252" MODIFIED="1579340968630"/>
-<node TEXT="cps" ID="ID_926022075" CREATED="1579340969718" MODIFIED="1579340973418">
-<node TEXT="source merge" ID="ID_1467894638" CREATED="1579340974428" MODIFIED="1579340979096"/>
+<node TEXT="copy file or folder - recursive" ID="ID_76714027" CREATED="1579340960501" MODIFIED="1579442069856"/>
 </node>
-<node TEXT="cpt" ID="ID_357343250" CREATED="1579340980585" MODIFIED="1579340982037">
-<node TEXT="target merge" ID="ID_703375818" CREATED="1579340982812" MODIFIED="1579340987736"/>
+<node TEXT="cps" ID="ID_926022075" CREATED="1579340969718" MODIFIED="1579441566666">
+<font BOLD="true"/>
+<node TEXT="cp source merge" ID="ID_1467894638" CREATED="1579340974428" MODIFIED="1579441593432"/>
 </node>
-</node>
+<node TEXT="cpt" ID="ID_357343250" CREATED="1579340980585" MODIFIED="1579441567379">
+<font BOLD="true"/>
+<node TEXT="cp target merge" ID="ID_703375818" CREATED="1579340982812" MODIFIED="1579441586537"/>
 </node>
 </node>
 <node TEXT="execute" ID="ID_44121259" CREATED="1579340995518" MODIFIED="1579341008151">
 <font BOLD="true"/>
+<node TEXT="Batch commands" ID="ID_829160737" CREATED="1579441903238" MODIFIED="1579441907153"/>
 <node TEXT="run" ID="ID_207147563" CREATED="1579340653767" MODIFIED="1579341018540">
 <font BOLD="true"/>
-<node TEXT="run a batch file of commands" ID="ID_636216389" CREATED="1579341020439" MODIFIED="1579341031588"/>
 <node TEXT="    verbosity 0&#xa;    rm ./test-folder/&#xa;    cr ./test-folder/&#xa;    cr ./test-folder/test-file.txt This is a text file.&#xa;    test files ./test-folder/ test-file.txt&#xa;    test content ./test-folder/test-file.txt This is a text file.&#xa;    rm ./test-folder/" ID="ID_1376904582" CREATED="1579341070553" MODIFIED="1579341079765"/>
 </node>
 </node>
 </node>
-<node TEXT="links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1570968728190">
-<icon BUILTIN="attach"/>
-<edge COLOR="#00007c"/>
-<node ID="ID_876999366" CREATED="1579340136816" MODIFIED="1579340136816" LINK="https://github.com/jeff-zucker/solid-shell#solid-shell-sol"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/jeff-zucker/solid-shell#solid-shell-sol">https://github.com/jeff-zucker/solid-shell#solid-shell-sol</a> 
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node TEXT="rdf shell" ID="ID_1418721847" CREATED="1579341403696" MODIFIED="1579341410269" LINK="https://github.com/melvincarvalho/rdf-shell"/>
-</node>
-<node TEXT="docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1570980265221">
+<node TEXT="Docs" POSITION="left" ID="ID_1100215200" CREATED="1570969039178" MODIFIED="1579441781958">
 <icon BUILTIN="folder"/>
 <edge COLOR="#ff00ff"/>
 <node TEXT="Config" ID="ID_1751580259" CREATED="1579340434755" MODIFIED="1579340683580">
@@ -162,6 +143,25 @@
 <node TEXT="./sol" ID="ID_503463925" CREATED="1579340288352" MODIFIED="1579340290658"/>
 </node>
 </node>
+</node>
+<node TEXT="Links" POSITION="left" ID="ID_808607355" CREATED="1570968728188" MODIFIED="1579441787515">
+<icon BUILTIN="attach"/>
+<edge COLOR="#00007c"/>
+<node ID="ID_876999366" CREATED="1579340136816" MODIFIED="1579340136816" LINK="https://github.com/jeff-zucker/solid-shell#solid-shell-sol"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/jeff-zucker/solid-shell#solid-shell-sol">https://github.com/jeff-zucker/solid-shell#solid-shell-sol</a> 
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="rdf shell" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_1418721847" CREATED="1579341403696" MODIFIED="1579341670511" LINK="https://github.com/melvincarvalho/rdf-shell"/>
+<node TEXT="shelljs" ID="ID_776646539" CREATED="1579348975898" MODIFIED="1579348982263" LINK="https://www.npmjs.com/package/shelljs"/>
+<node TEXT="shx" ID="ID_1528524896" CREATED="1579349021140" MODIFIED="1579349026081" LINK="https://github.com/shelljs/shx"/>
 </node>
 </node>
 </map>

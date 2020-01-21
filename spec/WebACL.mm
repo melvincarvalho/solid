@@ -1,6 +1,7 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="WebACL" FOLDED="false" ID="ID_555367320" CREATED="1574934389442" MODIFIED="1577081690815" LINK="index.mm" STYLE="oval">
+<font SIZE="15"/>
 <edge STYLE="bezier" COLOR="#007c7c" WIDTH="thin" DASH="SOLID"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -64,7 +65,6 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="28" RULE="ON_BRANCH_CREATION"/>
-<font SIZE="15"/>
 <node TEXT="github spec" POSITION="right" ID="ID_1474243793" CREATED="1574934514434" MODIFIED="1574934519462" LINK="https://github.com/solid/web-access-control-spec#web-access-control-wac">
 <edge COLOR="#0000ff"/>
 </node>
