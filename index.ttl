@@ -22,3 +22,5 @@
 <#ID_1993946970> <urn:string:child> <ID_1993946970> .
 <#ID_1662681886> <urn:string:@_TEXT> """issues""" .
 <#ID_1662681886> <urn:string:child> <ID_1662681886> .
+<#ID_1693475953> <urn:string:@_TEXT> """history""" .
+<#ID_1693475953> <urn:string:child> <ID_1693475953> .

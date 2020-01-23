@@ -81,7 +81,9 @@
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
 <node TEXT="Data Kitchen" ID="ID_464490085" CREATED="1573024190055" MODIFIED="1573024327376" LINK="https://github.com/solid/data-kitchen"/>
-<node TEXT="BrowserFS" ID="ID_254470917" CREATED="1573155072181" MODIFIED="1573155078101" LINK="https://github.com/jvilk/BrowserFS"/>
+<node TEXT="BrowserFS" ID="ID_254470917" CREATED="1573155072181" MODIFIED="1573155078101" LINK="https://github.com/jvilk/BrowserFS">
+<node TEXT="solid rest" ID="ID_1269514055" CREATED="1579817003480" MODIFIED="1579817386779" LINK="https://github.com/jeff-zucker/solid-rest/tree/browserFS"/>
+</node>
 <node TEXT="Fuse library" ID="ID_845285837" CREATED="1577063008573" MODIFIED="1577082125436" LINK="https://github.com/fuse-friends/fuse-native"/>
 </node>
 <node TEXT="Links" POSITION="left" ID="ID_777477932" CREATED="1572063875737" MODIFIED="1572064427848" COLOR="#660000">
@@ -112,6 +114,7 @@
 <node TEXT="issues" ID="ID_1662681886" CREATED="1577601478570" MODIFIED="1577601478579" LINK="issues/index.mm">
 <edge STYLE="bezier" COLOR="#00ffff" WIDTH="thin"/>
 </node>
+<node TEXT="history" ID="ID_1693475953" CREATED="1579694166408" MODIFIED="1579694170918" LINK="https://www.w3.org/wiki/Socialwg/2015-03-18-minutes"/>
 </node>
 </node>
 </map>
