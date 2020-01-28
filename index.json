@@ -270,7 +270,23 @@
                             "@_ID": "ID_464490085",
                             "@_CREATED": 1573024190055,
                             "@_MODIFIED": 1573024327376,
-                            "@_LINK": "https://github.com/solid/data-kitchen"
+                            "@_LINK": "https://github.com/solid/data-kitchen",
+                            "node": [
+                                {
+                                    "@_TEXT": "browser FS Fork",
+                                    "@_ID": "ID_1249692100",
+                                    "@_CREATED": 1580246811384,
+                                    "@_MODIFIED": 1580246818624,
+                                    "@_LINK": "https://github.com/jeff-zucker/data-kitchen"
+                                },
+                                {
+                                    "@_TEXT": "browser FS notes",
+                                    "@_ID": "ID_159496431",
+                                    "@_CREATED": 1580246837298,
+                                    "@_MODIFIED": 1580246844069,
+                                    "@_LINK": "https://github.com/jeff-zucker/data-kitchen/blob/master/README.jz.md#these-things-currenlty-work-using-the-databrowser-in-file-and-app-spaces"
+                                }
+                            ]
                         },
                         {
                             "@_TEXT": "BrowserFS",

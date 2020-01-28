@@ -3,6 +3,10 @@
 <#ID_1810859973> <urn:string:@_TEXT> """Tools""" .
 <#ID_464490085> <urn:string:@_TEXT> """Data Kitchen""" .
 <#ID_464490085> <urn:string:child> <ID_464490085> .
+<#ID_1249692100> <urn:string:@_TEXT> """browser FS Fork""" .
+<#ID_1249692100> <urn:string:child> <ID_1249692100> .
+<#ID_159496431> <urn:string:@_TEXT> """browser FS notes""" .
+<#ID_159496431> <urn:string:child> <ID_159496431> .
 <#ID_254470917> <urn:string:@_TEXT> """BrowserFS""" .
 <#ID_254470917> <urn:string:child> <ID_254470917> .
 <#ID_845285837> <urn:string:@_TEXT> """Fuse library""" .

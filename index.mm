@@ -80,7 +80,10 @@
 <icon BUILTIN="executable"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
-<node TEXT="Data Kitchen" ID="ID_464490085" CREATED="1573024190055" MODIFIED="1573024327376" LINK="https://github.com/solid/data-kitchen"/>
+<node TEXT="Data Kitchen" ID="ID_464490085" CREATED="1573024190055" MODIFIED="1573024327376" LINK="https://github.com/solid/data-kitchen">
+<node TEXT="browser FS Fork" ID="ID_1249692100" CREATED="1580246811384" MODIFIED="1580246818624" LINK="https://github.com/jeff-zucker/data-kitchen"/>
+<node TEXT="browser FS notes" ID="ID_159496431" CREATED="1580246837298" MODIFIED="1580246844069" LINK="https://github.com/jeff-zucker/data-kitchen/blob/master/README.jz.md#these-things-currenlty-work-using-the-databrowser-in-file-and-app-spaces"/>
+</node>
 <node TEXT="BrowserFS" ID="ID_254470917" CREATED="1573155072181" MODIFIED="1573155078101" LINK="https://github.com/jvilk/BrowserFS">
 <node TEXT="solid rest" ID="ID_1269514055" CREATED="1579817003480" MODIFIED="1579817386779" LINK="https://github.com/jeff-zucker/solid-rest/tree/browserFS"/>
 </node>
