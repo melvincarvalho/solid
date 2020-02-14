@@ -9,10 +9,10 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <link rel="stylesheet" href="https://cdn.rawgit.com/hakimel/reveal.js/3.3.0//css/reveal.css">
-        <link rel="stylesheet" id="theme" href="https://cdn.rawgit.com/hakimel/reveal.js/3.3.0//css/theme/sky.css">
+        <link rel="stylesheet" href="https://solidpayorg.github.io/reveal.js/css/reveal.css">
+        <link rel="stylesheet" id="theme" href="https://solidpayorg.github.io/reveal.js/css/theme/solid.css">
         <!--For syntax highlighting-->
-        <link rel="stylesheet" href="https://cdn.rawgit.com/hakimel/reveal.js/3.3.0//lib/css/zenburn.css">
+        <link rel="stylesheet" href="https://solidpayorg.github.io/reveal.js/lib/css/zenburn.css">
         <style type="text/css">
             a.connector, a.subsection {margin-left: 1ex; font-size: smaller}
             .illustrations a {float:left; margin: 1ex 5px; max-width:100%}
@@ -37,11 +37,11 @@
         </style>
         <!--If the query includes 'print-pdf', use the PDF print sheet. works in Chrome, maybe not other browsers-->
         <script type="text/javascript">
-        document.write( '<link rel="stylesheet" href="https://cdn.rawgit.com/hakimel/reveal.js/3.3.0//css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print" />' );
+        document.write( '<link rel="stylesheet" href="https://solidpayorg.github.io/reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print" />' );
         </script>
         <!--
             [if lt IE 9]>
-            <script src="https://cdn.rawgit.com/hakimel/reveal.js/3.3.0//lib/js/html5shiv.js"></script>
+            <script src="https://solidpayorg.github.io/reveal.js/lib/js/html5shiv.js"></script>
             <![endif]
         -->
         <!--placeholder for custom header items (typically scripts or stylesheets)-->
@@ -54,25 +54,22 @@
                     <h2>Apps</h2>
                     <ul>
                         <li>
-                            <a href="https://solidapps.org/" class="link external"><a http-equiv="content-type" content="text/html; charset=utf-8" href="https://solidapps.org/">https://solidapps.org/</a></a>
-                        </li>
-                        <li>
                             http://webid.im/<a href="#/ID_1285619201" class="link subsection"> &#8628;</a>
                         </li>
                         <li>
-                            <a href="https://scenaristeur.github.io/compagent-tuto/" class="link external"><a http-equiv="content-type" content="text/html; charset=utf-8" href="https://scenaristeur.github.io/compagent-tuto/">https://scenaristeur.github.io/compagent-tuto/</a></a>
-                        </li>
-                        <li>
                             <a href="https://github.com/Darcy-Social/ibex" class="link external"><a http-equiv="content-type" content="text/html; charset=utf-8" href="https://github.com/Darcy-Social/ibex">https://github.com/Darcy-Social/ibex</a></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/jeff-zucker/solid-rest" class="link external">https://github.com/jeff-zucker/solid-rest</a>
                         </li>
                         <li>
                             <a href="solid-shell.mm" class="link external">solid-shell</a>
                         </li>
                         <li>
                             <a href="https://github.com/jeff-zucker/solid-rest" class="link external">solid-rest</a>
+                        </li>
+                        <li>
+                            <a href="https://scenaristeur.github.io/compagent-tuto/" class="link external"><a http-equiv="content-type" content="text/html; charset=utf-8" href="https://scenaristeur.github.io/compagent-tuto/">https://scenaristeur.github.io/compagent-tuto/</a></a>
+                        </li>
+                        <li>
+                            <a href="https://solidapps.org/" class="link external"><a http-equiv="content-type" content="text/html; charset=utf-8" href="https://solidapps.org/">https://solidapps.org/</a></a>
                         </li>
                     </ul>
                 </section>
@@ -100,7 +97,7 @@
         <footer class="info">
             Apps | <a href="http://berteh.github.io/mindslide/">Mindslide</a> v 0.5 |  <a href="http://freeplane.sourceforge.net/">Freeplane</a> map vfreeplane 1.7.0
         </footer>
-        <script src="https://cdn.rawgit.com/hakimel/reveal.js/3.3.0//lib/js/head.min.js"></script><script src="https://cdn.rawgit.com/hakimel/reveal.js/3.3.0//js/reveal.js"></script><script>
+        <script src="https://solidpayorg.github.io/reveal.js/lib/js/head.min.js"></script><script src="https://solidpayorg.github.io/reveal.js/js/reveal.js"></script><script>
 
 	//run reveal.js
 	// Full list of configuration options available here:
@@ -136,19 +133,19 @@
 		parallaxBackgroundHorizontal: null,
 		parallaxBackgroundVertical: null,
 
-		theme: Reveal.getQueryHash().theme || 'sky',
+		theme: Reveal.getQueryHash().theme || 'solid',
 		transition: Reveal.getQueryHash().transition || 'cube',
 
 		
         // Optional libraries used to extend on reveal.js - see https://github.com/hakimel/reveal.js#dependencies
         dependencies: [
-          { src:'https://cdn.rawgit.com/hakimel/reveal.js/3.3.0//lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src:'https://cdn.rawgit.com/hakimel/reveal.js/3.3.0//plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-          { src:'https://cdn.rawgit.com/hakimel/reveal.js/3.3.0//plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-          { src:'https://cdn.rawgit.com/hakimel/reveal.js/3.3.0//plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-          //{ src:'https://cdn.rawgit.com/hakimel/reveal.js/3.3.0//plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },
-          //{ src:'https://cdn.rawgit.com/hakimel/reveal.js/3.3.0//plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },
-		  //{ src:'https://cdn.rawgit.com/hakimel/reveal.js/3.3.0//plugin/math/math.js', async: true }
+          { src:'https://solidpayorg.github.io/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src:'https://solidpayorg.github.io/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src:'https://solidpayorg.github.io/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src:'https://solidpayorg.github.io/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+          //{ src:'https://solidpayorg.github.io/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },
+          //{ src:'https://solidpayorg.github.io/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },
+		  //{ src:'https://solidpayorg.github.io/reveal.js/plugin/math/math.js', async: true }
 		]
     	
     });

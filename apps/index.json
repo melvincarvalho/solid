@@ -205,30 +205,6 @@
             ],
             "node": [
                 {
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1071946324",
-                    "@_CREATED": 1578130074773,
-                    "@_MODIFIED": 1578130074779,
-                    "@_LINK": "https://solidapps.org/",
-                    "richcontent": {
-                        "@_TYPE": "NODE",
-                        "html": {
-                            "head": "",
-                            "body": {
-                                "a": {
-                                    "#text": "https://solidapps.org/",
-                                    "@_http-equiv": "content-type",
-                                    "@_content": "text/html; charset=utf-8",
-                                    "@_href": "https://solidapps.org/"
-                                }
-                            }
-                        }
-                    },
-                    "edge": {
-                        "@_COLOR": "#7c007c"
-                    }
-                },
-                {
                     "@_POSITION": "left",
                     "@_ID": "ID_1285619201",
                     "@_CREATED": 1578130094329,
@@ -269,30 +245,6 @@
                     ]
                 },
                 {
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1009568646",
-                    "@_CREATED": 1578425918655,
-                    "@_MODIFIED": 1578497874089,
-                    "@_LINK": "https://scenaristeur.github.io/compagent-tuto/",
-                    "richcontent": {
-                        "@_TYPE": "NODE",
-                        "html": {
-                            "head": "",
-                            "body": {
-                                "a": {
-                                    "#text": "https://scenaristeur.github.io/compagent-tuto/",
-                                    "@_http-equiv": "content-type",
-                                    "@_content": "text/html; charset=utf-8",
-                                    "@_href": "https://scenaristeur.github.io/compagent-tuto/"
-                                }
-                            }
-                        }
-                    },
-                    "edge": {
-                        "@_COLOR": "#7c7c00"
-                    }
-                },
-                {
                     "@_POSITION": "left",
                     "@_ID": "ID_1493791154",
                     "@_CREATED": 1578497887712,
@@ -317,17 +269,6 @@
                     }
                 },
                 {
-                    "@_TEXT": "https://github.com/jeff-zucker/solid-rest",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1316215688",
-                    "@_CREATED": 1579166716602,
-                    "@_MODIFIED": 1579166716612,
-                    "@_LINK": "https://github.com/jeff-zucker/solid-rest",
-                    "edge": {
-                        "@_COLOR": "#0000ff"
-                    }
-                },
-                {
                     "@_TEXT": "solid-shell",
                     "@_POSITION": "right",
                     "@_ID": "ID_76390485",
@@ -347,6 +288,54 @@
                     "@_LINK": "https://github.com/jeff-zucker/solid-rest",
                     "edge": {
                         "@_COLOR": "#ff00ff"
+                    }
+                },
+                {
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1009568646",
+                    "@_CREATED": 1578425918655,
+                    "@_MODIFIED": 1578497874089,
+                    "@_LINK": "https://scenaristeur.github.io/compagent-tuto/",
+                    "richcontent": {
+                        "@_TYPE": "NODE",
+                        "html": {
+                            "head": "",
+                            "body": {
+                                "a": {
+                                    "#text": "https://scenaristeur.github.io/compagent-tuto/",
+                                    "@_http-equiv": "content-type",
+                                    "@_content": "text/html; charset=utf-8",
+                                    "@_href": "https://scenaristeur.github.io/compagent-tuto/"
+                                }
+                            }
+                        }
+                    },
+                    "edge": {
+                        "@_COLOR": "#7c7c00"
+                    }
+                },
+                {
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1071946324",
+                    "@_CREATED": 1578130074773,
+                    "@_MODIFIED": 1578130074779,
+                    "@_LINK": "https://solidapps.org/",
+                    "richcontent": {
+                        "@_TYPE": "NODE",
+                        "html": {
+                            "head": "",
+                            "body": {
+                                "a": {
+                                    "#text": "https://solidapps.org/",
+                                    "@_http-equiv": "content-type",
+                                    "@_content": "text/html; charset=utf-8",
+                                    "@_href": "https://solidapps.org/"
+                                }
+                            }
+                        }
+                    },
+                    "edge": {
+                        "@_COLOR": "#7c007c"
                     }
                 }
             ]

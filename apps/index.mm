@@ -66,19 +66,6 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="26" RULE="ON_BRANCH_CREATION"/>
-<node POSITION="right" ID="ID_1071946324" CREATED="1578130074773" MODIFIED="1578130074779" LINK="https://solidapps.org/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://solidapps.org/">https://solidapps.org/</a> 
-  </body>
-</html>
-</richcontent>
-<edge COLOR="#7c007c"/>
-</node>
 <node POSITION="left" ID="ID_1285619201" CREATED="1578130094329" MODIFIED="1578130094334" LINK="http://webid.im/"><richcontent TYPE="NODE">
 
 <html>
@@ -94,19 +81,6 @@
 <node TEXT="github" ID="ID_1449615970" CREATED="1578215609149" MODIFIED="1578215613495" LINK="https://github.com/melvincarvalho/webid.im"/>
 <node TEXT="FLOSS Messengers" ID="ID_1381129542" CREATED="1578215615257" MODIFIED="1578215629820" LINK="https://github.com/melvincarvalho/webid.im/wiki/FLOSS-Messengers"/>
 </node>
-<node POSITION="right" ID="ID_1009568646" CREATED="1578425918655" MODIFIED="1578497874089" LINK="https://scenaristeur.github.io/compagent-tuto/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://scenaristeur.github.io/compagent-tuto/">https://scenaristeur.github.io/compagent-tuto/</a> 
-  </body>
-</html>
-</richcontent>
-<edge COLOR="#7c7c00"/>
-</node>
 <node POSITION="left" ID="ID_1493791154" CREATED="1578497887712" MODIFIED="1578497887719" LINK="https://github.com/Darcy-Social/ibex"><richcontent TYPE="NODE">
 
 <html>
@@ -120,14 +94,37 @@
 </richcontent>
 <edge COLOR="#ff0000"/>
 </node>
-<node TEXT="https://github.com/jeff-zucker/solid-rest" POSITION="right" ID="ID_1316215688" CREATED="1579166716602" MODIFIED="1579166716612" LINK="https://github.com/jeff-zucker/solid-rest">
-<edge COLOR="#0000ff"/>
-</node>
 <node TEXT="solid-shell" POSITION="right" ID="ID_76390485" CREATED="1579341722271" MODIFIED="1579341731939" LINK="solid-shell.mm">
 <edge COLOR="#00ff00"/>
 </node>
 <node TEXT="solid-rest" POSITION="right" ID="ID_849083085" CREATED="1579166696671" MODIFIED="1579382559368" LINK="https://github.com/jeff-zucker/solid-rest">
 <edge COLOR="#ff00ff"/>
+</node>
+<node POSITION="right" ID="ID_1009568646" CREATED="1578425918655" MODIFIED="1578497874089" LINK="https://scenaristeur.github.io/compagent-tuto/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://scenaristeur.github.io/compagent-tuto/">https://scenaristeur.github.io/compagent-tuto/</a> 
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#7c7c00"/>
+</node>
+<node POSITION="right" ID="ID_1071946324" CREATED="1578130074773" MODIFIED="1578130074779" LINK="https://solidapps.org/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://solidapps.org/">https://solidapps.org/</a> 
+  </body>
+</html>
+</richcontent>
+<edge COLOR="#7c007c"/>
 </node>
 </node>
 </map>
