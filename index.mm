@@ -118,6 +118,7 @@
 <edge STYLE="bezier" COLOR="#00ffff" WIDTH="thin"/>
 </node>
 <node TEXT="history" ID="ID_1693475953" CREATED="1579694166408" MODIFIED="1579694170918" LINK="https://www.w3.org/wiki/Socialwg/2015-03-18-minutes"/>
+<node TEXT="solid.community" ID="ID_1488379025" CREATED="1583605769442" MODIFIED="1583605773782"/>
 </node>
 </node>
 </map>

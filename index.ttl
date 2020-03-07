@@ -28,3 +28,5 @@
 <#ID_1662681886> <urn:string:child> <ID_1662681886> .
 <#ID_1693475953> <urn:string:@_TEXT> """history""" .
 <#ID_1693475953> <urn:string:child> <ID_1693475953> .
+<#ID_1488379025> <urn:string:@_TEXT> """solid.community""" .
+<#ID_1488379025> <urn:string:child> <ID_1488379025> .
