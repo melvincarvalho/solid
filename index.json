@@ -6,7 +6,7 @@
             "@_FOLDED": false,
             "@_ID": "ID_237352286",
             "@_CREATED": 1570576809840,
-            "@_MODIFIED": 1581677143233,
+            "@_MODIFIED": 1583701801625,
             "@_ICON_SIZE": "16.0 pt",
             "@_LINK": "../tech/index.mm",
             "@_STYLE": "oval",
@@ -201,10 +201,10 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_1861071781",
                     "@_CREATED": 1578130056712,
-                    "@_MODIFIED": 1578130064770,
+                    "@_MODIFIED": 1583701795273,
                     "@_LINK": "apps/index.mm",
                     "@_COLOR": "#000099",
-                    "@_HGAP_QUANTITY": "-75.99999731779107 pt",
+                    "@_HGAP_QUANTITY": "-73.7499973848463 pt",
                     "@_VSHIFT_QUANTITY": "-77.24999769777067 pt",
                     "font": {
                         "@_SIZE": 12,
@@ -318,8 +318,10 @@
                     "@_POSITION": "left",
                     "@_ID": "ID_777477932",
                     "@_CREATED": 1572063875737,
-                    "@_MODIFIED": 1572064427848,
+                    "@_MODIFIED": 1583701801612,
                     "@_COLOR": "#660000",
+                    "@_HGAP_QUANTITY": "15.499999955296516 pt",
+                    "@_VSHIFT_QUANTITY": "-9.749999709427364 pt",
                     "icon": {
                         "@_BUILTIN": "attach"
                     },
@@ -421,9 +423,15 @@
                         },
                         {
                             "@_TEXT": "solid.community",
-                            "@_ID": "ID_1488379025",
-                            "@_CREATED": 1583605769442,
-                            "@_MODIFIED": 1583605773782
+                            "@_ID": "ID_246084453",
+                            "@_CREATED": 1583701829774,
+                            "@_MODIFIED": 1583701829786,
+                            "@_LINK": "solid.community/index.mm",
+                            "edge": {
+                                "@_STYLE": "bezier",
+                                "@_COLOR": "#00ffff",
+                                "@_WIDTH": "thin"
+                            }
                         }
                     ]
                 }

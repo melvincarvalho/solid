@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="solid" FOLDED="false" ID="ID_237352286" CREATED="1570576809840" MODIFIED="1581677143233" ICON_SIZE="16.0 pt" LINK="../tech/index.mm" STYLE="oval">
+<node TEXT="solid" FOLDED="false" ID="ID_237352286" CREATED="1570576809840" MODIFIED="1583701801625" ICON_SIZE="16.0 pt" LINK="../tech/index.mm" STYLE="oval">
 <icon BUILTIN="wizard"/>
 <font SIZE="18"/>
 <hook NAME="MapStyle">
@@ -65,7 +65,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="20" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Apps" POSITION="right" ID="ID_1861071781" CREATED="1578130056712" MODIFIED="1578130064770" LINK="apps/index.mm" COLOR="#000099" HGAP_QUANTITY="-75.99999731779107 pt" VSHIFT_QUANTITY="-77.24999769777067 pt">
+<node TEXT="Apps" POSITION="right" ID="ID_1861071781" CREATED="1578130056712" MODIFIED="1583701795273" LINK="apps/index.mm" COLOR="#000099" HGAP_QUANTITY="-73.7499973848463 pt" VSHIFT_QUANTITY="-77.24999769777067 pt">
 <font SIZE="12" BOLD="true"/>
 <edge STYLE="bezier" COLOR="#00ff00" WIDTH="thin"/>
 <node TEXT="databrowser" ID="ID_589909741" CREATED="1579167473579" MODIFIED="1579167473584" LINK="databrowser/index.mm">
@@ -89,7 +89,7 @@
 </node>
 <node TEXT="Fuse library" ID="ID_845285837" CREATED="1577063008573" MODIFIED="1577082125436" LINK="https://github.com/fuse-friends/fuse-native"/>
 </node>
-<node TEXT="Links" POSITION="left" ID="ID_777477932" CREATED="1572063875737" MODIFIED="1572064427848" COLOR="#660000">
+<node TEXT="Links" POSITION="left" ID="ID_777477932" CREATED="1572063875737" MODIFIED="1583701801612" COLOR="#660000" HGAP_QUANTITY="15.499999955296516 pt" VSHIFT_QUANTITY="-9.749999709427364 pt">
 <icon BUILTIN="attach"/>
 <font SIZE="12" BOLD="true"/>
 <edge COLOR="#00ffff"/>
@@ -118,7 +118,9 @@
 <edge STYLE="bezier" COLOR="#00ffff" WIDTH="thin"/>
 </node>
 <node TEXT="history" ID="ID_1693475953" CREATED="1579694166408" MODIFIED="1579694170918" LINK="https://www.w3.org/wiki/Socialwg/2015-03-18-minutes"/>
-<node TEXT="solid.community" ID="ID_1488379025" CREATED="1583605769442" MODIFIED="1583605773782"/>
+<node TEXT="solid.community" ID="ID_246084453" CREATED="1583701829774" MODIFIED="1583701829786" LINK="solid.community/index.mm">
+<edge STYLE="bezier" COLOR="#00ffff" WIDTH="thin"/>
+</node>
 </node>
 </node>
 </map>
