@@ -1,8 +1,7 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="solid.community" FOLDED="false" ID="ID_1488379025" CREATED="1583605769442" MODIFIED="1583742051863" LINK="../index.mm" STYLE="oval">
-<font SIZE="18"/>
-<edge STYLE="bezier" COLOR="#00ffff" WIDTH="thin" DASH="SOLID"/>
+<node TEXT="server" FOLDED="false" ID="ID_550395522" CREATED="1583701906853" MODIFIED="1583871103629" LINK="../index.mm">
+<edge STYLE="bezier" COLOR="#00ff00" WIDTH="thin" DASH="SOLID"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
@@ -65,30 +64,8 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="29" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="website" POSITION="right" ID="ID_576302726" CREATED="1583741978946" MODIFIED="1583742007694" LINK="https://solid.community/">
-<edge COLOR="#ff00ff"/>
-</node>
-<node TEXT="issues" POSITION="right" ID="ID_286214866" CREATED="1583701860231" MODIFIED="1583742071127" LINK="https://gitlab.com/solid.community/support/issues">
-<edge COLOR="#007c7c"/>
-</node>
-<node TEXT="gitlab" POSITION="right" ID="ID_990185859" CREATED="1583742084990" MODIFIED="1583742089373" LINK="https://gitlab.com/solid.community">
-<edge COLOR="#00ffff"/>
-</node>
-<node TEXT="proposals" POSITION="right" ID="ID_1338092243" CREATED="1583701868176" MODIFIED="1583742101094" LINK="https://gitlab.com/solid.community/proposals">
-<edge COLOR="#7c7c00"/>
-</node>
-<node TEXT="wiki" POSITION="right" ID="ID_841761167" CREATED="1583701877424" MODIFIED="1583742473966" LINK="https://gitlab.com/solid.community/support/-/wikis/home">
-<edge COLOR="#0000ff"/>
-</node>
-<node TEXT="server" POSITION="right" ID="ID_426543359" CREATED="1583871103693" MODIFIED="1583871103698" LINK="server/index.mm">
-<edge STYLE="bezier" COLOR="#00ff00" WIDTH="thin"/>
-</node>
-<node TEXT="maintainers" POSITION="right" ID="ID_697534265" CREATED="1583742157073" MODIFIED="1583742526976" LINK="https://gitlab.com/groups/solid.community/-/group_members">
-<edge COLOR="#7c0000"/>
-</node>
-<node TEXT="todo" POSITION="left" ID="ID_1636972351" CREATED="1583701871745" MODIFIED="1583742137390" LINK="https://gitlab.com/solid.community/proposals/-/issues">
-<edge COLOR="#ff0000"/>
-<node TEXT="ToS" ID="ID_1065183033" CREATED="1583742165749" MODIFIED="1583742181004" LINK="https://gitlab.com/solid.community/proposals/-/issues/1"/>
+<node TEXT="wiki" POSITION="right" ID="ID_515807084" CREATED="1583871129464" MODIFIED="1583871182383" LINK="https://gitlab.com/solid.community/support/-/wikis/home#server-info">
+<edge COLOR="#00007c"/>
 </node>
 </node>
 </map>

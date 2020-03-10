@@ -2,19 +2,15 @@
     "map": {
         "@_version": "freeplane 1.7.0",
         "node": {
-            "@_TEXT": "solid.community",
+            "@_TEXT": "server",
             "@_FOLDED": false,
-            "@_ID": "ID_1488379025",
-            "@_CREATED": 1583605769442,
-            "@_MODIFIED": 1583742051863,
+            "@_ID": "ID_550395522",
+            "@_CREATED": 1583701906853,
+            "@_MODIFIED": 1583871103629,
             "@_LINK": "../index.mm",
-            "@_STYLE": "oval",
-            "font": {
-                "@_SIZE": 18
-            },
             "edge": {
                 "@_STYLE": "bezier",
-                "@_COLOR": "#00ffff",
+                "@_COLOR": "#00ff00",
                 "@_WIDTH": "thin",
                 "@_DASH": "SOLID"
             },
@@ -197,105 +193,17 @@
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
-            "node": [
-                {
-                    "@_TEXT": "website",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_576302726",
-                    "@_CREATED": 1583741978946,
-                    "@_MODIFIED": 1583742007694,
-                    "@_LINK": "https://solid.community/",
-                    "edge": {
-                        "@_COLOR": "#ff00ff"
-                    }
-                },
-                {
-                    "@_TEXT": "issues",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_286214866",
-                    "@_CREATED": 1583701860231,
-                    "@_MODIFIED": 1583742071127,
-                    "@_LINK": "https://gitlab.com/solid.community/support/issues",
-                    "edge": {
-                        "@_COLOR": "#007c7c"
-                    }
-                },
-                {
-                    "@_TEXT": "gitlab",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_990185859",
-                    "@_CREATED": 1583742084990,
-                    "@_MODIFIED": 1583742089373,
-                    "@_LINK": "https://gitlab.com/solid.community",
-                    "edge": {
-                        "@_COLOR": "#00ffff"
-                    }
-                },
-                {
-                    "@_TEXT": "proposals",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_1338092243",
-                    "@_CREATED": 1583701868176,
-                    "@_MODIFIED": 1583742101094,
-                    "@_LINK": "https://gitlab.com/solid.community/proposals",
-                    "edge": {
-                        "@_COLOR": "#7c7c00"
-                    }
-                },
-                {
-                    "@_TEXT": "wiki",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_841761167",
-                    "@_CREATED": 1583701877424,
-                    "@_MODIFIED": 1583742473966,
-                    "@_LINK": "https://gitlab.com/solid.community/support/-/wikis/home",
-                    "edge": {
-                        "@_COLOR": "#0000ff"
-                    }
-                },
-                {
-                    "@_TEXT": "server",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_426543359",
-                    "@_CREATED": 1583871103693,
-                    "@_MODIFIED": 1583871103698,
-                    "@_LINK": "server/index.mm",
-                    "edge": {
-                        "@_STYLE": "bezier",
-                        "@_COLOR": "#00ff00",
-                        "@_WIDTH": "thin"
-                    }
-                },
-                {
-                    "@_TEXT": "maintainers",
-                    "@_POSITION": "right",
-                    "@_ID": "ID_697534265",
-                    "@_CREATED": 1583742157073,
-                    "@_MODIFIED": 1583742526976,
-                    "@_LINK": "https://gitlab.com/groups/solid.community/-/group_members",
-                    "edge": {
-                        "@_COLOR": "#7c0000"
-                    }
-                },
-                {
-                    "@_TEXT": "todo",
-                    "@_POSITION": "left",
-                    "@_ID": "ID_1636972351",
-                    "@_CREATED": 1583701871745,
-                    "@_MODIFIED": 1583742137390,
-                    "@_LINK": "https://gitlab.com/solid.community/proposals/-/issues",
-                    "edge": {
-                        "@_COLOR": "#ff0000"
-                    },
-                    "node": {
-                        "@_TEXT": "ToS",
-                        "@_ID": "ID_1065183033",
-                        "@_CREATED": 1583742165749,
-                        "@_MODIFIED": 1583742181004,
-                        "@_LINK": "https://gitlab.com/solid.community/proposals/-/issues/1"
-                    }
+            "node": {
+                "@_TEXT": "wiki",
+                "@_POSITION": "right",
+                "@_ID": "ID_515807084",
+                "@_CREATED": 1583871129464,
+                "@_MODIFIED": 1583871182383,
+                "@_LINK": "https://gitlab.com/solid.community/support/-/wikis/home#server-info",
+                "edge": {
+                    "@_COLOR": "#00007c"
                 }
-            ]
+            }
         }
     }
 }
