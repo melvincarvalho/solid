@@ -199,11 +199,11 @@
             ],
             "node": [
                 {
-                    "@_TEXT": "website",
+                    "@_TEXT": "solid.community",
                     "@_POSITION": "right",
                     "@_ID": "ID_576302726",
                     "@_CREATED": 1583741978946,
-                    "@_MODIFIED": 1583742007694,
+                    "@_MODIFIED": 1583928874092,
                     "@_LINK": "https://solid.community/",
                     "edge": {
                         "@_COLOR": "#ff00ff"

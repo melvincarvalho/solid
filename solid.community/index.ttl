@@ -1,4 +1,4 @@
-<#ID_576302726> <urn:string:@_TEXT> """website""" .
+<#ID_576302726> <urn:string:@_TEXT> """solid.community""" .
 <#ID_286214866> <urn:string:@_TEXT> """issues""" .
 <#ID_990185859> <urn:string:@_TEXT> """gitlab""" .
 <#ID_1338092243> <urn:string:@_TEXT> """proposals""" .

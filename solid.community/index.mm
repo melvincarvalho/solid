@@ -65,7 +65,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="29" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="website" POSITION="right" ID="ID_576302726" CREATED="1583741978946" MODIFIED="1583742007694" LINK="https://solid.community/">
+<node TEXT="solid.community" POSITION="right" ID="ID_576302726" CREATED="1583741978946" MODIFIED="1583928874092" LINK="https://solid.community/">
 <edge COLOR="#ff00ff"/>
 </node>
 <node TEXT="issues" POSITION="right" ID="ID_286214866" CREATED="1583701860231" MODIFIED="1583742071127" LINK="https://gitlab.com/solid.community/support/issues">
