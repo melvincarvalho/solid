@@ -287,13 +287,21 @@
                     "edge": {
                         "@_COLOR": "#ff0000"
                     },
-                    "node": {
-                        "@_TEXT": "ToS",
-                        "@_ID": "ID_1065183033",
-                        "@_CREATED": 1583742165749,
-                        "@_MODIFIED": 1583742181004,
-                        "@_LINK": "https://gitlab.com/solid.community/proposals/-/issues/1"
-                    }
+                    "node": [
+                        {
+                            "@_TEXT": "ToS",
+                            "@_ID": "ID_1065183033",
+                            "@_CREATED": 1583742165749,
+                            "@_MODIFIED": 1583742181004,
+                            "@_LINK": "https://gitlab.com/solid.community/proposals/-/issues/1"
+                        },
+                        {
+                            "@_TEXT": "renew certificate",
+                            "@_ID": "ID_1501639836",
+                            "@_CREATED": 1584046505913,
+                            "@_MODIFIED": 1584046510068
+                        }
+                    ]
                 }
             ]
         }

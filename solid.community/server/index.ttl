@@ -1,0 +1,3 @@
+<#ID_515807084> <urn:string:@_TEXT> """wiki""" .
+<#ID_753133880> <urn:string:@_TEXT> """software""" .
+<#ID_32408149> <urn:string:@_TEXT> """hardware""" .

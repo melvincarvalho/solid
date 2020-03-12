@@ -6,3 +6,7 @@
 <#ID_426543359> <urn:string:@_TEXT> """server""" .
 <#ID_697534265> <urn:string:@_TEXT> """maintainers""" .
 <#ID_1636972351> <urn:string:@_TEXT> """todo""" .
+<#ID_1065183033> <urn:string:@_TEXT> """ToS""" .
+<#ID_1065183033> <urn:string:child> <ID_1065183033> .
+<#ID_1501639836> <urn:string:@_TEXT> """renew certificate""" .
+<#ID_1501639836> <urn:string:child> <ID_1501639836> .

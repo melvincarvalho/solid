@@ -1,6 +1,6 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="server" FOLDED="false" ID="ID_550395522" CREATED="1583701906853" MODIFIED="1583871103629" LINK="../index.mm">
+<node TEXT="server" FOLDED="false" ID="ID_550395522" CREATED="1583701906853" MODIFIED="1583930605432" LINK="../index.mm" STYLE="oval">
 <edge STYLE="bezier" COLOR="#00ff00" WIDTH="thin" DASH="SOLID"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
@@ -63,9 +63,19 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="29" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="31" RULE="ON_BRANCH_CREATION"/>
+<font SIZE="18"/>
 <node TEXT="wiki" POSITION="right" ID="ID_515807084" CREATED="1583871129464" MODIFIED="1583871182383" LINK="https://gitlab.com/solid.community/support/-/wikis/home#server-info">
 <edge COLOR="#00007c"/>
+</node>
+<node TEXT="software" POSITION="right" ID="ID_753133880" CREATED="1583930446376" MODIFIED="1583930454290">
+<edge COLOR="#007c00"/>
+<node TEXT="node solid server" ID="ID_75946428" CREATED="1583930467813" MODIFIED="1583930472786">
+<node TEXT="5.2.3" ID="ID_1910404502" CREATED="1583930475860" MODIFIED="1583930482743"/>
+</node>
+</node>
+<node TEXT="hardware" POSITION="right" ID="ID_32408149" CREATED="1583930456061" MODIFIED="1583930458890">
+<edge COLOR="#7c007c"/>
 </node>
 </node>
 </map>
