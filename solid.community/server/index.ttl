@@ -1,3 +1,7 @@
 <#ID_515807084> <urn:string:@_TEXT> """wiki""" .
 <#ID_753133880> <urn:string:@_TEXT> """software""" .
+<#ID_75946428> <urn:string:@_TEXT> """node solid server""" .
+<#ID_75946428> <urn:string:child> <ID_75946428> .
+<#ID_544687904> <urn:string:@_TEXT> """control""" .
+<#ID_544687904> <urn:string:child> <ID_544687904> .
 <#ID_32408149> <urn:string:@_TEXT> """hardware""" .

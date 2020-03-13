@@ -9,6 +9,9 @@
             "@_MODIFIED": 1583930605432,
             "@_LINK": "../index.mm",
             "@_STYLE": "oval",
+            "font": {
+                "@_SIZE": 18
+            },
             "edge": {
                 "@_STYLE": "bezier",
                 "@_COLOR": "#00ff00",
@@ -194,9 +197,6 @@
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
-            "font": {
-                "@_SIZE": 18
-            },
             "node": [
                 {
                     "@_TEXT": "wiki",
@@ -218,18 +218,32 @@
                     "edge": {
                         "@_COLOR": "#007c00"
                     },
-                    "node": {
-                        "@_TEXT": "node solid server",
-                        "@_ID": "ID_75946428",
-                        "@_CREATED": 1583930467813,
-                        "@_MODIFIED": 1583930472786,
-                        "node": {
-                            "@_TEXT": "5.2.3",
-                            "@_ID": "ID_1910404502",
-                            "@_CREATED": 1583930475860,
-                            "@_MODIFIED": 1583930482743
+                    "node": [
+                        {
+                            "@_TEXT": "node solid server",
+                            "@_ID": "ID_75946428",
+                            "@_CREATED": 1583930467813,
+                            "@_MODIFIED": 1583930472786,
+                            "node": {
+                                "@_TEXT": "5.2.3",
+                                "@_ID": "ID_1910404502",
+                                "@_CREATED": 1583930475860,
+                                "@_MODIFIED": 1583930482743
+                            }
+                        },
+                        {
+                            "@_TEXT": "control",
+                            "@_ID": "ID_544687904",
+                            "@_CREATED": 1584138474048,
+                            "@_MODIFIED": 1584138476396,
+                            "node": {
+                                "@_TEXT": "pm2",
+                                "@_ID": "ID_1605065199",
+                                "@_CREATED": 1584138477344,
+                                "@_MODIFIED": 1584138478658
+                            }
                         }
-                    }
+                    ]
                 },
                 {
                     "@_TEXT": "hardware",
