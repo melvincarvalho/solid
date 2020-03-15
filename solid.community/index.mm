@@ -89,7 +89,9 @@
 <node TEXT="todo" POSITION="left" ID="ID_1636972351" CREATED="1583701871745" MODIFIED="1583742137390" LINK="https://gitlab.com/solid.community/proposals/-/issues">
 <edge COLOR="#ff0000"/>
 <node TEXT="ToS" ID="ID_1065183033" CREATED="1583742165749" MODIFIED="1583742181004" LINK="https://gitlab.com/solid.community/proposals/-/issues/1"/>
-<node TEXT="renew certificate" ID="ID_1501639836" CREATED="1584046505913" MODIFIED="1584046510068"/>
+<node TEXT="renew certificate" ID="ID_1501639836" CREATED="1584046505913" MODIFIED="1584046510068">
+<node TEXT="expires 23 march" ID="ID_831221203" CREATED="1584310561705" MODIFIED="1584310566906"/>
+</node>
 </node>
 </node>
 </map>
