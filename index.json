@@ -233,10 +233,13 @@
                     "@_POSITION": "right",
                     "@_ID": "ID_45632273",
                     "@_CREATED": 1574934349622,
-                    "@_MODIFIED": 1581677143222,
+                    "@_MODIFIED": 1584566758410,
                     "@_LINK": "spec/index.mm",
                     "@_HGAP_QUANTITY": "25.999999642372142 pt",
                     "@_VSHIFT_QUANTITY": "14.999999552965178 pt",
+                    "icon": {
+                        "@_BUILTIN": "list"
+                    },
                     "edge": {
                         "@_STYLE": "bezier",
                         "@_COLOR": "#00007c",
