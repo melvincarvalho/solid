@@ -278,7 +278,8 @@
                             "@_OBJECT": "java.lang.Double|0.7",
                             "@_ID": "ID_1966112557",
                             "@_CREATED": 1574934429594,
-                            "@_MODIFIED": 1574934431992
+                            "@_MODIFIED": 1584602673498,
+                            "@_LINK": "https://github.com/solid/solid-spec"
                         },
                         {
                             "@_TEXT": 0.8,
