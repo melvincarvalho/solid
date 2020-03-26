@@ -1,6 +1,6 @@
 {
     "map": {
-        "@_version": "freeplane 1.7.0",
+        "@_version": "freeplane 1.8.0",
         "node": {
             "@_TEXT": "solid.community",
             "@_FOLDED": false,
@@ -287,27 +287,13 @@
                     "edge": {
                         "@_COLOR": "#ff0000"
                     },
-                    "node": [
-                        {
-                            "@_TEXT": "ToS",
-                            "@_ID": "ID_1065183033",
-                            "@_CREATED": 1583742165749,
-                            "@_MODIFIED": 1583742181004,
-                            "@_LINK": "https://gitlab.com/solid.community/proposals/-/issues/1"
-                        },
-                        {
-                            "@_TEXT": "renew certificate",
-                            "@_ID": "ID_1501639836",
-                            "@_CREATED": 1584046505913,
-                            "@_MODIFIED": 1584046510068,
-                            "node": {
-                                "@_TEXT": "expires 23 march",
-                                "@_ID": "ID_831221203",
-                                "@_CREATED": 1584310561705,
-                                "@_MODIFIED": 1584310566906
-                            }
-                        }
-                    ]
+                    "node": {
+                        "@_TEXT": "ToS",
+                        "@_ID": "ID_1065183033",
+                        "@_CREATED": 1583742165749,
+                        "@_MODIFIED": 1583742181004,
+                        "@_LINK": "https://gitlab.com/solid.community/proposals/-/issues/1"
+                    }
                 }
             ]
         }
