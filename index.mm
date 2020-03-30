@@ -1,4 +1,4 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="solid" FOLDED="false" ID="ID_237352286" CREATED="1570576809840" MODIFIED="1583701801625" ICON_SIZE="16.0 pt" LINK="../tech/index.mm" STYLE="oval">
 <icon BUILTIN="wizard"/>
@@ -76,6 +76,7 @@
 <icon BUILTIN="list"/>
 <edge STYLE="bezier" COLOR="#00007c" WIDTH="thin"/>
 <font SIZE="11" BOLD="true"/>
+<node TEXT="Linked Data Notifications" ID="ID_1990139043" CREATED="1574031062993" MODIFIED="1574031073388" LINK="https://www.w3.org/TR/ldn/"/>
 </node>
 <node TEXT="Tools" POSITION="right" ID="ID_1810859973" CREATED="1572063767900" MODIFIED="1574934302574" HGAP_QUANTITY="-72.24999742954977 pt" VSHIFT_QUANTITY="68.24999796599155 pt" COLOR="#666600">
 <icon BUILTIN="executable"/>
@@ -108,19 +109,17 @@
 <font SIZE="10" BOLD="true"/>
 </node>
 <node TEXT="MIT" ID="ID_671925292" CREATED="1573024179269" MODIFIED="1573024358704" LINK="https://solid.mit.edu"/>
-<node TEXT="Specs" ID="ID_1604622862" CREATED="1574031057044" MODIFIED="1574031060459">
-<node TEXT="Linked Data Notifications" ID="ID_1990139043" CREATED="1574031062993" MODIFIED="1574031073388" LINK="https://www.w3.org/TR/ldn/"/>
-</node>
-<node TEXT="Colors" ID="ID_960031878" CREATED="1577179087843" MODIFIED="1577179091178" LINK="https://design.inrupt.com/atomic-core/?cat=Core#Colors">
-<node TEXT="#7C4DFF" ID="ID_1864362129" CREATED="1577177083068" MODIFIED="1577177083068"/>
-<node TEXT="royal lavendar" ID="ID_1993946970" CREATED="1577177086745" MODIFIED="1577177090171"/>
-</node>
 <node TEXT="issues" ID="ID_1662681886" CREATED="1577601478570" MODIFIED="1577601478579" LINK="issues/index.mm">
 <edge STYLE="bezier" COLOR="#00ffff" WIDTH="thin"/>
 </node>
 <node TEXT="history" ID="ID_1693475953" CREATED="1579694166408" MODIFIED="1579694170918" LINK="https://www.w3.org/wiki/Socialwg/2015-03-18-minutes"/>
 <node TEXT="solid.community" ID="ID_246084453" CREATED="1583701829774" MODIFIED="1583701829786" LINK="solid.community/index.mm">
 <edge STYLE="bezier" COLOR="#00ffff" WIDTH="thin"/>
+</node>
+<node TEXT="Colors" ID="ID_960031878" CREATED="1577179087843" MODIFIED="1577179091178" LINK="https://design.inrupt.com/atomic-core/?cat=Core#Colors">
+<node TEXT="#7C4DFF" ID="ID_1864362129" CREATED="1577177083068" MODIFIED="1577177083068">
+<node TEXT="royal lavendar" ID="ID_1993946970" CREATED="1577177086745" MODIFIED="1577177090171"/>
+</node>
 </node>
 </node>
 </node>

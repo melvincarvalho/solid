@@ -1,6 +1,6 @@
 {
     "map": {
-        "@_version": "freeplane 1.7.0",
+        "@_version": "freeplane 1.8.0",
         "node": {
             "@_TEXT": "solid",
             "@_FOLDED": false,
@@ -248,6 +248,13 @@
                     "font": {
                         "@_SIZE": 11,
                         "@_BOLD": true
+                    },
+                    "node": {
+                        "@_TEXT": "Linked Data Notifications",
+                        "@_ID": "ID_1990139043",
+                        "@_CREATED": 1574031062993,
+                        "@_MODIFIED": 1574031073388,
+                        "@_LINK": "https://www.w3.org/TR/ldn/"
                     }
                 },
                 {
@@ -372,40 +379,6 @@
                             "@_LINK": "https://solid.mit.edu"
                         },
                         {
-                            "@_TEXT": "Specs",
-                            "@_ID": "ID_1604622862",
-                            "@_CREATED": 1574031057044,
-                            "@_MODIFIED": 1574031060459,
-                            "node": {
-                                "@_TEXT": "Linked Data Notifications",
-                                "@_ID": "ID_1990139043",
-                                "@_CREATED": 1574031062993,
-                                "@_MODIFIED": 1574031073388,
-                                "@_LINK": "https://www.w3.org/TR/ldn/"
-                            }
-                        },
-                        {
-                            "@_TEXT": "Colors",
-                            "@_ID": "ID_960031878",
-                            "@_CREATED": 1577179087843,
-                            "@_MODIFIED": 1577179091178,
-                            "@_LINK": "https://design.inrupt.com/atomic-core/?cat=Core#Colors",
-                            "node": [
-                                {
-                                    "@_TEXT": "#7C4DFF",
-                                    "@_ID": "ID_1864362129",
-                                    "@_CREATED": 1577177083068,
-                                    "@_MODIFIED": 1577177083068
-                                },
-                                {
-                                    "@_TEXT": "royal lavendar",
-                                    "@_ID": "ID_1993946970",
-                                    "@_CREATED": 1577177086745,
-                                    "@_MODIFIED": 1577177090171
-                                }
-                            ]
-                        },
-                        {
                             "@_TEXT": "issues",
                             "@_ID": "ID_1662681886",
                             "@_CREATED": 1577601478570,
@@ -434,6 +407,25 @@
                                 "@_STYLE": "bezier",
                                 "@_COLOR": "#00ffff",
                                 "@_WIDTH": "thin"
+                            }
+                        },
+                        {
+                            "@_TEXT": "Colors",
+                            "@_ID": "ID_960031878",
+                            "@_CREATED": 1577179087843,
+                            "@_MODIFIED": 1577179091178,
+                            "@_LINK": "https://design.inrupt.com/atomic-core/?cat=Core#Colors",
+                            "node": {
+                                "@_TEXT": "#7C4DFF",
+                                "@_ID": "ID_1864362129",
+                                "@_CREATED": 1577177083068,
+                                "@_MODIFIED": 1577177083068,
+                                "node": {
+                                    "@_TEXT": "royal lavendar",
+                                    "@_ID": "ID_1993946970",
+                                    "@_CREATED": 1577177086745,
+                                    "@_MODIFIED": 1577177090171
+                                }
                             }
                         }
                     ]
