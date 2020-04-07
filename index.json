@@ -248,13 +248,6 @@
                     "font": {
                         "@_SIZE": 11,
                         "@_BOLD": true
-                    },
-                    "node": {
-                        "@_TEXT": "Linked Data Notifications",
-                        "@_ID": "ID_1990139043",
-                        "@_CREATED": 1574031062993,
-                        "@_MODIFIED": 1574031073388,
-                        "@_LINK": "https://www.w3.org/TR/ldn/"
                     }
                 },
                 {
