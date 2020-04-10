@@ -9,10 +9,10 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <link rel="stylesheet" href="https://solidpayorg.github.io/reveal.js/css/reveal.css">
-        <link rel="stylesheet" id="theme" href="https://solidpayorg.github.io/reveal.js/css/theme/solid.css">
+        <link rel="stylesheet" href="reveal.js/css/reveal.css">
+        <link rel="stylesheet" id="theme" href="reveal.js/css/theme/moon.css">
         <!--For syntax highlighting-->
-        <link rel="stylesheet" href="https://solidpayorg.github.io/reveal.js/lib/css/zenburn.css">
+        <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
         <style type="text/css">
             a.connector, a.subsection {margin-left: 1ex; font-size: smaller}
             .illustrations a {float:left; margin: 1ex 5px; max-width:100%}
@@ -37,11 +37,11 @@
         </style>
         <!--If the query includes 'print-pdf', use the PDF print sheet. works in Chrome, maybe not other browsers-->
         <script type="text/javascript">
-        document.write( '<link rel="stylesheet" href="https://solidpayorg.github.io/reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print" />' );
+        document.write( '<link rel="stylesheet" href="reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print" />' );
         </script>
         <!--
             [if lt IE 9]>
-            <script src="https://solidpayorg.github.io/reveal.js/lib/js/html5shiv.js"></script>
+            <script src="reveal.js/lib/js/html5shiv.js"></script>
             <![endif]
         -->
         <!--placeholder for custom header items (typically scripts or stylesheets)-->
@@ -50,14 +50,19 @@
         <div class="reveal">
             <!--Any section element inside of this container is displayed as a slide-->
             <div id="mindslide" class="slides">
-                <section class="content" id="ID_237352286">
-                    <h2>solid</h2>
+                <section class="title" id="ID_237352286">
+                    <h1>solid</h1>
+                    <ul>
+                        <li class="icon">
+                            <span aria-hidden="true" class="fa fa-list"></span><a href="spec/index.mm" class="link external">spec</a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="toc">
+                    <h2>Table of Content</h2>
                     <ul>
                         <li>
                             Apps<a href="#/ID_1861071781" class="link subsection"> &#8628;</a>
-                        </li>
-                        <li class="icon">
-                            <span aria-hidden="true" class="fa fa-list"></span><a href="spec/index.mm" class="link external">spec</a>
                         </li>
                         <li class="icon">
                             <span aria-hidden="true" class="fa fa-gears"></span>Tools<a href="#/ID_1810859973" class="link subsection"> &#8628;</a>
@@ -68,7 +73,7 @@
                     </ul>
                 </section>
                 <section class="content" id="ID_1861071781">
-                    <h3>Apps</h3>
+                    <h2>Apps</h2>
                     <ul>
                         <li>
                             <a href="databrowser/index.mm" class="link external">databrowser</a>
@@ -78,7 +83,7 @@
                 <!--new subsection-->
                 <section>
                     <section class="content" id="ID_1810859973">
-                        <h3>Tools</h3>
+                        <h2>Tools</h2>
                         <ul>
                             <li>
                                 Data Kitchen<a href="#/ID_464490085" class="link subsection"> &#8628;</a>
@@ -92,7 +97,7 @@
                         </ul>
                     </section>
                     <section class="content" id="ID_464490085">
-                        <h4>Data Kitchen</h4>
+                        <h3>Data Kitchen</h3>
                         <ul>
                             <li>
                                 <a href="https://github.com/jeff-zucker/data-kitchen" class="link external">browser FS Fork</a>
@@ -103,7 +108,7 @@
                         </ul>
                     </section>
                     <section class="content" id="ID_254470917">
-                        <h4>BrowserFS</h4>
+                        <h3>BrowserFS</h3>
                         <ul>
                             <li>
                                 <a href="https://github.com/jeff-zucker/solid-rest/tree/browserFS" class="link external">solid rest</a>
@@ -114,7 +119,7 @@
                 <!--new subsection-->
                 <section>
                     <section class="content" id="ID_777477932">
-                        <h3>Links</h3>
+                        <h2>Links</h2>
                         <ul>
                             <li>
                                 <a href="https://webmaps.io/" class="link external">
@@ -125,12 +130,6 @@
                                 <a href="https://solid.mit.edu" class="link external">MIT</a>
                             </li>
                             <li>
-                                Specs<a href="#/ID_1604622862" class="link subsection"> &#8628;</a>
-                            </li>
-                            <li>
-                                Colors<a href="#/ID_960031878" class="link subsection"> &#8628;</a>
-                            </li>
-                            <li>
                                 <a href="issues/index.mm" class="link external">issues</a>
                             </li>
                             <li>
@@ -139,20 +138,22 @@
                             <li>
                                 <a href="solid.community/index.mm" class="link external">solid.community</a>
                             </li>
-                        </ul>
-                    </section>
-                    <section class="content" id="ID_1604622862">
-                        <h4>Specs</h4>
-                        <ul>
                             <li>
-                                <a href="https://www.w3.org/TR/ldn/" class="link external">Linked Data Notifications</a>
+                                Colors<a href="#/ID_960031878" class="link subsection"> &#8628;</a>
                             </li>
                         </ul>
                     </section>
                     <section class="content" id="ID_960031878">
-                        <h4>Colors</h4>
+                        <h3>Colors</h3>
                         <ul>
-                            <li>#7C4DFF</li>
+                            <li>
+                                #7C4DFF<a href="#/ID_1864362129" class="link subsection"> &#8628;</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="content" id="ID_1864362129">
+                        <h4>#7C4DFF</h4>
+                        <ul>
                             <li>royal lavendar</li>
                         </ul>
                     </section>
@@ -168,9 +169,9 @@
             </div>
         </div>
         <footer class="info">
-            solid | <a href="http://berteh.github.io/mindslide/">Mindslide</a> v 0.5 |  <a href="http://freeplane.sourceforge.net/">Freeplane</a> map vfreeplane 1.7.0
+            solid | <a href="http://berteh.github.io/mindslide/">Mindslide</a> v 0.5 |  <a href="http://freeplane.sourceforge.net/">Freeplane</a> map vfreeplane 1.8.0
         </footer>
-        <script src="https://solidpayorg.github.io/reveal.js/lib/js/head.min.js"></script><script src="https://solidpayorg.github.io/reveal.js/js/reveal.js"></script><script>
+        <script src="reveal.js/lib/js/head.min.js"></script><script src="reveal.js/js/reveal.js"></script><script>
 
 	//run reveal.js
 	// Full list of configuration options available here:
@@ -197,7 +198,7 @@
 		mouseWheel: true,
 		hideAddressBar: true,
 		previewLinks: false,
-		transition: 'cube',
+		transition: 'slide',
 		transitionSpeed: 'default',
 		backgroundTransition: 'slide',
 		viewDistance: 3,
@@ -206,19 +207,19 @@
 		parallaxBackgroundHorizontal: null,
 		parallaxBackgroundVertical: null,
 
-		theme: Reveal.getQueryHash().theme || 'solid',
-		transition: Reveal.getQueryHash().transition || 'cube',
+		theme: Reveal.getQueryHash().theme || 'moon',
+		transition: Reveal.getQueryHash().transition || 'slide',
 
 		
         // Optional libraries used to extend on reveal.js - see https://github.com/hakimel/reveal.js#dependencies
         dependencies: [
-          { src:'https://solidpayorg.github.io/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src:'https://solidpayorg.github.io/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-          { src:'https://solidpayorg.github.io/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-          { src:'https://solidpayorg.github.io/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-          //{ src:'https://solidpayorg.github.io/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },
-          //{ src:'https://solidpayorg.github.io/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },
-		  //{ src:'https://solidpayorg.github.io/reveal.js/plugin/math/math.js', async: true }
+          { src:'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src:'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src:'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src:'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+          //{ src:'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },
+          //{ src:'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]' ); } },
+		  //{ src:'reveal.js/plugin/math/math.js', async: true }
 		]
     	
     });
